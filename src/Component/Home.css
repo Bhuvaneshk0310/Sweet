@@ -1,0 +1,37 @@
+section{
+    width: auto;
+height: auto;
+border: solid px rgb(225, 113, 65);
+
+justify-content: center;
+align-items: center;
+}
+#home{
+ 
+    min-height: 690px;
+	background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)),url(./Images/bg.jpg);
+	
+	background-size: cover;
+	background-position: center;
+	flex-direction: column;
+}
+#home h1{
+	margin-top: 160px;
+	font-size:100px;
+	color:white;
+	letter-spacing: 3px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	text-shadow: 0px 1px 0px #ccc,
+	0px 2px 0px #ccc,
+	0px 3px 0px #ccc,
+	0px 4px 0px #ccc,
+	0px 5px 0px #ccc,
+	0px 6px 0px #ccc,
+	0px 6px 0px #ccc;
+}
+
+#home .center{
+	color: azure;
+	font-size: 24px;
+	font-weight: 900;
+}
