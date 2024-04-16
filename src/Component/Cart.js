@@ -1,5 +1,7 @@
 import React from 'react'
 import './Cart.css';
+import { Link } from 'react-router-dom';
+
 function Cart() {
   return (
     <div>
@@ -17,8 +19,8 @@ function Cart() {
 <div  id="Nav">
 
        
-       <a className="h1">Help </a> 
-       <a className="h1">Sign In </a> 
+<Link to="/Help"><a className="h1">Help </a> </Link>
+<Link to="/Signin"><a className="h1">Sign In </a> </Link>
          
   {/*        <Link to="/"></Link>
          <Link to ="/Search">

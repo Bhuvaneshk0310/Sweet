@@ -16,7 +16,8 @@ import Error from './Component/Error';
 import Cart from './Component/Cart';
 import Contact from './Component/Contact';
 import Search from './Component/Search';
-
+import Signin from './Component/Signin';
+import Help from './Component/Help';
 
 
 
@@ -42,7 +43,6 @@ const router = createBrowserRouter([
         element: <Search />,
       },
      
-     
     
     ],
 
@@ -58,6 +58,14 @@ const router = createBrowserRouter([
   {
     path: "/Cart",
     element: <Cart />,
+  },
+  {
+    path: "/Signin",
+    element: <Signin />,
+  },
+  {
+    path: "/Help",
+    element: <Help />,
   },
   
 
