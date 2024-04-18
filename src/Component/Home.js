@@ -1,11 +1,13 @@
 import React from 'react'
 import "./Home.css";
-
+import * as image from "../Component/ImagesFolder/Image"
 const Home = () => {
   return (
     <div>
+      
          <div>
         <section id="home">
+       
         <br/>
         <br/>
         <h1> DESSERT SWEETS</h1><br/>

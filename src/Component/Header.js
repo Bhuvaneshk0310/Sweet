@@ -1,7 +1,7 @@
 import React from "react";
 import './Header.css';
 import { Link } from 'react-router-dom';
-/*import * as img from "../Images/Image";*/
+import * as image from "../Component/ImagesFolder/Image"
 
 
 
@@ -21,14 +21,15 @@ const Header = () => {
 <div  id="Nav">
 
          <Link to ="/Home">
+          <img src={image.home} alt="home"/>
          <a className="h1">Home </a> 
           </Link>
          
-         <Link to ="/about"> <a className="h1">About </a> </Link>
+         <Link to ="/Menu"> <a className="h1">Menu </a> </Link>
          <Link to="/Contact"> <a className="h1">Contact </a> </Link>
          <Link to="/"></Link>
 
-         <Link to ="/Search">
+         <Link to ="/Searchs">
          <a className="h1">Search </a> 
           {/*<img src={img.search} alt="Search" />*/}
           </Link>

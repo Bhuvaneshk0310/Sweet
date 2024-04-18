@@ -1,7 +1,8 @@
 #navbar {
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
+    width: auto;
     z-index: 100;
     padding: .5rem 5rem;
     box-shadow: 5px 5px 10px rgb(118, 27, 238) ;

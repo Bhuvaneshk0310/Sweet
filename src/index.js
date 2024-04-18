@@ -15,7 +15,7 @@ import Home from './Component/Home';
 import Error from './Component/Error';
 import Cart from './Component/Cart';
 import Contact from './Component/Contact';
-import Search from './Component/Search';
+import Searchs from './Component/Searchs';
 import Signin from './Component/Signin';
 import Help from './Component/Help';
 
@@ -39,8 +39,8 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/Search",
-        element: <Search />,
+        path: "/Searchs",
+        element: <Searchs />,
       },
      
     
