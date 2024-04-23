@@ -3,6 +3,7 @@
         "id": 1,
         "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTzsy2_l2_ZtY_xOb4Y8uh79EwlfMbmpqiUhrz1sjlPquudzqf9 ",
         "title": "Rosogulla (100g)",
+        "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwqpcLLWcmGJEHQmLgAOFPYnC53mKCoU_H_WsI6Rfu7b6L12R1",
         "price": 335
     },
     {
@@ -20,7 +21,7 @@
     {
         "id": 4,
         "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS-cOZyou2s0uCVqWlyp3VOiWS3cKicZtS6JqGNE6paaOPZLZS3",
-        "title": "Agarwal Sweet Palace (100g)",
+        "title": "Mabrumeh (100g)",
         "price": 200
     },
     {
@@ -32,7 +33,7 @@
     {
         "id": 6,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROxPJx-8FYbM1R0jU0s7WdeUl56avHT9l_n0DVbFUiu06CjP60",
-        "title": "Sohan Papdi (100g)",
+        "title": "Doodh Barfi  (100g)",
         "price": 200
     },
     {
@@ -49,9 +50,66 @@
     },
     {
         "id": 9,
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTcVFWOoX2T7ZLZD0NfXqhTrn573JeooFQZm8zCIyHTnoD7ZKuC",
+        "title": "Balushahi (100g)",
+        "price": 200
+
+    }
+    ,
+    {
+        "id": 10,
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTJ8xjceQnS1g_-ePPu_aERD6J9mfSw1_3J78im87TSCEVFlEo_",
+        "title": "Madatha Kaja  (100g)",
+        "price": 200
+        
+    }
+    ,
+    {
+        "id": 11,
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ2I8Giwr5pfXfRwBf7CqLrQOBWvmnF9doVOKP22FgcmFiIz1A9",
+        "title": "Namoura (100g)",
+        "price": 200
+        
+    }
+    ,
+    {
+        "id": 12,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS59MSLWvMXyOW7jX_RjoNTrXOCIp1BDzlDNwVbwXldMsORrzvq",
         "title": "Namoura (100g)",
         "price": 200
+        
+    }
+    ,
+    {
+        "id": 13,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS59MSLWvMXyOW7jX_RjoNTrXOCIp1BDzlDNwVbwXldMsORrzvq",
+        "title": "Namoura (100g)",
+        "price": 200
+        
+    }
+    ,
+    {
+        "id": 14,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS59MSLWvMXyOW7jX_RjoNTrXOCIp1BDzlDNwVbwXldMsORrzvq",
+        "title": "Namoura (100g)",
+        "price": 200
+        
+    }
+    ,
+    {
+        "id": 15,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS59MSLWvMXyOW7jX_RjoNTrXOCIp1BDzlDNwVbwXldMsORrzvq",
+        "title": "Namoura (100g)",
+        "price": 200
+        
+    }
+    ,
+    {
+        "id": 16,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS59MSLWvMXyOW7jX_RjoNTrXOCIp1BDzlDNwVbwXldMsORrzvq",
+        "title": "Namoura (100g)",
+        "price": 200
+        
     }
 ]
 

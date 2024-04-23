@@ -18,6 +18,7 @@ import Contact from './Component/Contact';
 import Searchs from './Component/Searchs';
 import Signin from './Component/Signin';
 import Help from './Component/Help';
+import Searchdetail from './Component/Searchdetail';
 
 
 
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: "/Searchs",
         element: <Searchs />,
+      },
+      {
+        path: "/Searchdetail/:id",
+        element: <Searchdetail />,
       },
      
     

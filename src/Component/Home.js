@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Home.css";
-import * as image from "../Component/ImagesFolder/Image"
+
+
 const Home = () => {
   return (
     <div>

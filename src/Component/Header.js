@@ -8,57 +8,63 @@ import * as image from "../Component/ImagesFolder/Image"
 const Header = () => {
   return (
     <div>
-        <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+      <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
         <div class="container-fluid">
-    <a class="navbar-brand" href="/Home">Sweet</a>
-   
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        
-   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <a class="navbar-brand" href="/Home">Sweet</a>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
 
 
-<div  id="Nav">
+              <div id="Nav">
 
-         <Link to ="/Home">
-          <img src={image.home} alt="home"/>
-         <a className="h1">Home </a> 
-          </Link>
-         
-         <Link to ="/Menu"> <a className="h1">Menu </a> </Link>
-         <Link to="/Contact"> <a className="h1">Contact </a> </Link>
-         <Link to="/"></Link>
+                <Link to="/Home">
+                  <img className="nav1" src={image.home} alt="home" />
+                  <a className="y1">Home </a>
+                </Link>
 
-         <Link to ="/Searchs">
-         <a className="h1">Search </a> 
-          {/*<img src={img.search} alt="Search" />*/}
-          </Link>
- 
+                <Link to="/Menu">
+                  <img className="nav1" src={image.menu} alt="menu" />
+                  <a className="y1">Menu </a>
+                </Link>
+                <Link to="/Contact">
+                  <img className="nav1" src={image.contact} alt="contact" />
+                  <a className="y1">Contact </a>
+                </Link>
+                <Link to="/"></Link>
 
-   </div>
-            
-  <div id="cs1">
-   <Link to="/Cart">
+                <Link to="/Searchs">
+                  <img className="nav1" src={image.search} alt="search" />
+                  <a className="y1">Search </a>
+                </Link>
 
-   <div class="shopping">
-    
-          <img src="https://static-00.iconduck.com/assets.00/shopping-cart-icon-512x462-yrde1eu0.png"/>
-          <span class="quantity">0</span>
-          <span className="shop1">Cart</span>
+
+              </div>
+
+              <div id="cs1">
+                <Link to="/Cart">
+
+                  <div class="shopping">
+
+                    <img src="https://static-00.iconduck.com/assets.00/shopping-cart-icon-512x462-yrde1eu0.png" />
+                    <span class="quantity">0</span>
+                    <a className="shop1">Cart</a>
+                  </div>
+
+                </Link>
+              </div>
+
+            </ul>
+
+
+
+
+
+          </div>
         </div>
-        
-        </Link>
-        </div>
-
-       </ul>
-
- 
-     
-         
-     
-    </div>
-  </div>
-</nav>
+      </nav>
     </div>
   )
 }

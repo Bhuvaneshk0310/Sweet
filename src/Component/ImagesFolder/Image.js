@@ -1,2 +1,5 @@
-export {default as home} from "./home.gif"
+export {default as home} from "./home.png"
+export {default as menu} from "./menu.png"
+export {default as contact} from "./contact.png"
+export {default as search} from "./search.png"
 export {default as bg} from "./bg.jpg"
