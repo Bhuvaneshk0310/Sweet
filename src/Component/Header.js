@@ -2,6 +2,7 @@ import React from "react";
 import './Header.css';
 import { Link } from 'react-router-dom';
 import * as image from "../Component/ImagesFolder/Image"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
@@ -22,7 +23,7 @@ const Header = () => {
 
                 <Link to="/Home">
                   <img className="nav1" src={image.home} alt="home" />
-                  <a className="y1">Home </a>
+                  <a className="y1 " >Home </a>
                 </Link>
 
                 <Link to="/Menu">

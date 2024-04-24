@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import data from "./TemplateData.json";
 import "./Searchdetail.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Searchdetail = () => {
     const { id } = useParams();
@@ -40,10 +41,13 @@ useEffect(() => {
             <div id="card">
                 {searchItem && (
                     <div key={searchItem.id}>
-                        <img className="sweetimg" src={searchItem.background} alt={searchItem.title} />
+                   
+<div class="container-fluid p-5 my-5 border">
+                        <img className="sweetimg " src={searchItem.background} alt={searchItem.title} />
                         <h3>{searchItem.title}</h3>
                         <p className="price">₹{searchItem.price}</p>
                         <button className='shopcart'>Add to Cart</button>
+                    </div>
                     </div>
                 )}
             </div>

@@ -7,7 +7,7 @@
     position: fixed;
     width: 100%;
     left: 0;
-    top: 80px;
+    top: 60px;
     z-index: 2;
     background-color: #fff;
     padding-bottom: 10px;
@@ -34,9 +34,9 @@
 .templateContainer .template_Container .template{
     background-color: white;
    border-radius: 20px;
-    /* box-shadow: rgba(118, 27, 238) 0px 54px 55px, rgba(118, 27, 238) 0px -10px 30px, rgba(118, 27, 238) 0px 4px 6px, rgba(118, 27, 238) 0px 12px 13px, rgba(118, 27, 238) 0px -3px 5px; */
-    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
-    width: 16rem;
+    
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    width: 18rem;
     height: 22rem;
     margin-top: 20px;
     margin: 20px;
