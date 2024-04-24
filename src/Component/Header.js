@@ -48,7 +48,7 @@ const Header = () => {
 
                   <div class="shopping">
 
-                    <img src="https://static-00.iconduck.com/assets.00/shopping-cart-icon-512x462-yrde1eu0.png" />
+                    <img src={image.cart}/>
                     <span class="quantity">0</span>
                     <a className="shop1">Cart</a>
                   </div>

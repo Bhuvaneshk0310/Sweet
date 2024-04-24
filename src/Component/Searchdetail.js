@@ -43,7 +43,7 @@ useEffect(() => {
                         <img className="sweetimg" src={searchItem.background} alt={searchItem.title} />
                         <h3>{searchItem.title}</h3>
                         <p className="price">₹{searchItem.price}</p>
-                        <p className='sdetail'></p>
+                        <button className='shopcart'>Add to Cart</button>
                     </div>
                 )}
             </div>
