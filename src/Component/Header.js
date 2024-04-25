@@ -11,7 +11,7 @@ const Header = () => {
     <div>
       <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/Home">Sweet</a>
+          <a class="navbar-brand" href="/Home">Sweets</a>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
 

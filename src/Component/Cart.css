@@ -1,9 +1,10 @@
 .brand{
-    width: 163px;
-    height: 15px;
-    padding-top: 6px;
+    width: 211px;
+    height: 56px;
+    border: solid red 1px;
+    padding-top: 17px;
     padding-left: 41px;
-     
+    text-decoration: none;
      font-size: 14px;
     font-weight: 700;
 }
@@ -49,7 +50,7 @@
   
     font-size: 25px;
     font-weight: 800;
-    color: rgb(118, 27, 238) !important;
+    color: rgb(138 43 226) !important;
   }
   
   #navbarSupportedContent a {
@@ -64,7 +65,7 @@
   }
   
   .navbar-expand-lg .navbar-collapse {
-    display: flex !important;
+    display:none;
     flex-basis: auto;
   }
   
@@ -121,11 +122,7 @@
     list-style: none;
   }
   
-  #Nav {
-    margin-left: 20px;
-    margin-right: 30px;
-    font-size: 18px;
-  }
+
   
   .btn1 {
     background-color: blueviolet;

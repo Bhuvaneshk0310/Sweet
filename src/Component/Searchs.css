@@ -50,3 +50,9 @@
     width:250px ;
     margin-top: 20px;
 }
+.sea1{
+    height: 30px;
+    position: relative;
+   padding-bottom: 5px;
+    left:-3%;
+}

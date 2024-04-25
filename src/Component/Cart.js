@@ -10,9 +10,9 @@ function Cart() {
         <div class="container-fluid">
     <a class="navbar-brand" href="/Home">Sweet</a>
    <a className='brand'>SECURE CHECKOUT</a>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
         
-   <ul class="navbar-nav1  me-auto mb-2 mb-lg-0">
+   
 
 
 
@@ -31,8 +31,8 @@ function Cart() {
  
 
    </div>   
-         </ul>    
-    </div>
+        
+   
   </div>
 </nav>
 <div id='c1'>

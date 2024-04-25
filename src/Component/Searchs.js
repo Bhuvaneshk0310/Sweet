@@ -2,12 +2,12 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Searchs.css";
 import data from "./TemplateData.json";
-
+import * as image from "../Component/ImagesFolder/Image"
 
 
 
 function Searchs() {
-  const [searchTerm, setSearchTerm] = useState("");
+  const [searchTerm, setsearchTerm] = useState('');
   const [filteredData, setFilteredData] = useState([]);
 
   useEffect(() => {
@@ -20,6 +20,7 @@ function Searchs() {
       val.title.toLowerCase().includes(searchTerm)
     );
     setFilteredData(filtered);
+    setsearchTerm(event.target.value);
   };
 
   return (
@@ -33,6 +34,7 @@ function Searchs() {
             value={searchTerm}
             onChange={handleSearch}
           />
+          <img className="sea1" src={image.searchs} alt="search" />
         </div>
         <div className="template_Container">
           {filteredData.map((val) => (
@@ -51,61 +53,4 @@ function Searchs() {
 }
 
 export default Searchs;
-
-
-
-
-
-
-
-// import React, {useState} from "react";
-// import './Searchs.css';
-// import data from "./TemplateData.json";
-
-// function Searchs() {
-//     const [searchTerm, setSearchTerm] = useState("");
-  
-//     return (
-//       <>
-//         <div className="templateContainer">
-//           <div className="searchInput_Container">
-//             <input
-//               id="searchInput"
-//               type="text"
-//               placeholder="Search something Sweet..."
-//               onChange={(event) => {
-//                 setSearchTerm(event.target.value);
-//               }}
-//             />
-//           </div>
-//           <div className="template_Container">
-//             {data
-//               .filter((val) => {
-//                 if (searchTerm === "") {
-//                   return true; 
-//                 } else if (
-//                   val.title.toLowerCase().includes(searchTerm.toLowerCase())
-//                 ) {
-//                   return true; 
-//                 } else {
-//                   return false; 
-//                 }
-//               })
-//               .map((val) => {
-//                 return (
-//                   <div className="template" key={val.id}>
-//                     <img  className="sweetimg" src={val.image} alt={val.title} />
-//                     <h3>{val.title}</h3>
-//                     <p className="price">₹{val.price}</p>
-//                   </div>
-//                 );
-//               })}
-//           </div>
-//         </div>
-//       </>
-//     );
-//   }
-  
-//   export default Searchs;
-  
 
