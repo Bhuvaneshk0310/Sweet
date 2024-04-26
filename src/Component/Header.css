@@ -101,8 +101,8 @@
 #Nav {
   width: 575px;
   height: 48px;
-  margin-left: 200px;
-  margin-right: 130px;
+  margin-left: 180px;
+  margin-right: 120px;
   text-decoration: transparent;
 
 }
@@ -187,7 +187,10 @@
   left: 35%;
   padding: 3px 10px;
 }
-
+.s1{
+  height: 50px;
+ margin-right: 8px;
+}
 /*
   header {
   background-color: #333;

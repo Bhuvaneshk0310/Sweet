@@ -41,8 +41,10 @@ function Searchs() {
             <div className="template" key={val.id}>
               <Link to={`/Searchdetail/${val.id}`}>
                 <img className="sweetimg" src={val.image} alt={val.title} />
-                <h3>{val.title}</h3>
-                <p className="price">₹{val.price}</p>
+                <div className="tp2">
+                <p className="title-no-shadow ">{val.title}</p>
+                <p className="price box-no-shadow ">₹{val.price}</p>
+                </div>
               </Link>
             </div>
           ))}

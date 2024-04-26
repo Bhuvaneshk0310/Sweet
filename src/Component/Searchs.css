@@ -47,7 +47,7 @@
 }
 .templateContainer .template_Container .template img{
     height: 220px;
-    width:250px ;
+    width:220px ;
     margin-top: 20px;
 }
 .sea1{
@@ -55,4 +55,13 @@
     position: relative;
    padding-bottom: 5px;
     left:-3%;
+}
+.title{
+    font-size: 20px;
+    text-decoration-line: none;
+    color: black;
+    box-shadow:;
+}
+#tp2{
+    box-shadow:none;
 }

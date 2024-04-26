@@ -1,5 +1,6 @@
 import React from 'react'
 import './Cart.css';
+import * as image from "../Component/ImagesFolder/Image"
 import { Link } from 'react-router-dom';
 
 function Cart() {
@@ -8,7 +9,8 @@ function Cart() {
       <div id="root" >
        <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
         <div class="container-fluid">
-    <a class="navbar-brand" href="/Home">Sweet</a>
+        <img className="s1" src={image.s} alt="s" />
+    <a class="navbar-brand" href="/Home">Sweets</a>
    <a className='brand'>SECURE CHECKOUT</a>
     
         
