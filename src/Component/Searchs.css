@@ -21,6 +21,14 @@
     width: 50%;
     padding: 10px;
     outline: none;
+   
+}
+#searchInput{
+    border-radius: 15px;
+}
+#searchInput :hover{
+   
+    border-color: aqua;
 }
 .templateContainer .template_Container{
    
@@ -60,8 +68,23 @@
     font-size: 20px;
     text-decoration-line: none;
     color: black;
-    box-shadow:;
+   
 }
 #tp2{
     box-shadow:none;
 }
+.star {
+    cursor: pointer;
+    color: rgba(10, 130, 40, 0.646);
+    
+  }
+  
+  .star:hover,
+  .star:hover ~ .star {
+    color: rgb(86, 200, 126);
+  }
+  .heart{
+    border-radius: 15px;
+    border: #fff;
+    margin-top: 20%;
+  }
