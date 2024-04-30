@@ -4,6 +4,9 @@ import "./Searchs.css";
 import data from "./TemplateData.json";
 import * as image from "../Component/ImagesFolder/Image"
 import StarRating from './StarRating';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 
 
 
@@ -41,7 +44,7 @@ function Searchs() {
 
   return (
     <>
-      <div className="templateContainer">
+      <div className="container p-5 my-5 ">
         <div className="searchInput_Container">
           <input
             id="searchInput"
@@ -52,9 +55,11 @@ function Searchs() {
           />
           <img className="sea1" src={image.searchs} alt="search" />
         </div>
-        <div className="template_Container">
+        <div className="container-fluid ">
+
           {filteredData.map((val) => (
             <div className="template" key={val.id}>
+              <div>
               <Link to={`/Searchdetail/${val.id}`}>
                 <img className="sweetimg" src={val.image} alt={val.title} />
                 <div className="tp2">
@@ -62,11 +67,12 @@ function Searchs() {
                   <p className="price box-no-shadow">₹{val.price}</p>
                 </div>
               </Link>
+              </div>
               {/* Render the StarRating component */}
               <StarRating
                 totalStars={5}
-                initialRating={ratings[val.id] || 0} // Use the stored rating, default to 0
-                onRate={(value) => handleRate(val.id, value)} // Pass the item ID and rating value
+                initialRating={ratings[val.id] || 4.5 } // Use the stored rating, default to 0
+                 onRate={(value) => handleRate(val.id, value)} // Pass the item ID and rating value
                 isFavorite={favorites[val.id] || false} // Use the stored favorite status, default to false
                 onFavorite={() => toggleFavorite(val.id)} // Pass the item ID
               />
