@@ -1,51 +1,43 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import "./Searchs.css";
 
 
-const StarRating = ({ totalStars, initialRating, onRate,onFavorite, isFavorite  }) => {
-  const [rating, setRating] = useState(initialRating);
-  const [hoverRating, setHoverRating] = useState(0);
+const StarRating = ({ totalStars }) => {
+  const [rating, setRating] = useState(0);
 
-  const handleMouseOver = (hoveredRating) => {
-    setHoverRating(hoveredRating);
-   };
+  useEffect(() => {
+    const generateRandomRating = () => {
+      const randomRating = Math.floor(Math.random() * totalStars) + 1;
+      setRating(randomRating);
+    };
 
-   const handleMouseLeave = () => {
-    setHoverRating(0);
-   };
+    // Generate a random rating initially
+    generateRandomRating();
 
- const handleClick = (clickedRating) => {
-    setRating(clickedRating);
-    onRate(clickedRating);
-   };
+    // Refresh rating every 3 seconds
+    const intervalId = setInterval(generateRandomRating, 4000);
+
+    // Clean up interval
+    return () => clearInterval(intervalId);
+  }, [totalStars]);
 
   return (
     <div>
-          <div className='container'>
-         <div>
-      <button className='heart' onClick={onFavorite}>{isFavorite ? '❤️' : '🤍'}</button>
+      <div className='stars'>
+        {[...Array(totalStars)].map((_, index) => {
+          const starValue = index + 1;
+          return (
+            <span
+              key={starValue}
+              className="star"
+            >
+              {starValue <= rating ? '\u2605' : '\u2606'}
+            </span>
+          );
+        })}
+        <span>{rating}</span>
       </div>
-           <div className='stars'>
-      {[...Array(totalStars)].map((_, index) => {
-        const starValue = index + 1;
-        return (
-          <span
-            key={starValue}
-            className="star"
-             onMouseOver={() => handleMouseOver(starValue)}
-             onMouseLeave={handleMouseLeave}
-             onClick={() => handleClick(starValue)}
-          >
-            {starValue <= (hoverRating || rating) ? '\u2605' : '\u2606'}
-          </span>
-        );
-      })}
-       <span>{rating}</span>
-       </div> 
-      
     </div>
-    </div>
-
   );
 };
 

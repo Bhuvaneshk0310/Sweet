@@ -2,19 +2,15 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Searchs.css";
 import data from "./TemplateData.json";
-import * as image from "../Component/ImagesFolder/Image"
+import * as image from "../Component/ImagesFolder/Image";
 import StarRating from './StarRating';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-
-
-
+import Footer from "./Footer";
 
 function Searchs() {
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredData, setFilteredData] = useState([]);
-  const [ratings, setRatings] = useState({});
-  const [favorites, setFavorites] = useState({});
 
   useEffect(() => {
     setFilteredData(data);
@@ -32,14 +28,23 @@ function Searchs() {
     setSearchTerm(event.target.value);
   };
 
-  // Update the rating for a specific item
-  const handleRate = (id, value) => {
-    setRatings({ ...ratings, [id]: value });
+  const handleFavorite = (id) => {
+    // Toggle favorite status or handle favorite logic here
+    console.log('Favorite button clicked for item with id:', id);
   };
 
-  // Toggle the favorite status for a specific item
-  const toggleFavorite = (id) => {
-    setFavorites({ ...favorites, [id]: !favorites[id] });
+  const FavoriteButton = ({ isFavorite, id }) => {
+    const handleClick = () => {
+      handleFavorite(id); // Handle favorite logic
+    };
+
+    return (
+      <div>
+        <button className='heart' onClick={handleClick}>
+          {isFavorite ? '❤️' : '🤍'}
+        </button>
+      </div>
+    );
   };
 
   return (
@@ -59,22 +64,23 @@ function Searchs() {
 
           {filteredData.map((val) => (
             <div className="template" key={val.id}>
+              <FavoriteButton
+                isFavorite={val.isFavorite} // Assuming isFavorite property is present in your data
+                onFavorite={() => handleFavorite(val.id)}  // Pass item id to handleFavorite function
+              />
               <div>
-              <Link to={`/Searchdetail/${val.id}`}>
-                <img className="sweetimg" src={val.image} alt={val.title} />
-                <div className="tp2">
-                  <p className="title-no-shadow">{val.title}</p>
-                  <p className="price box-no-shadow">₹{val.price}</p>
-                </div>
-              </Link>
+                <Link to={`/Searchdetail/${val.id}`}>
+                  <img className="sweetimg" src={val.image} alt={val.title} />
+                  <div className="tp2">
+                    <p className="title-no-shadow">{val.title}</p>
+                    <p className="price box-no-shadow">₹{val.price}</p>
+                  </div>
+                </Link>
               </div>
               {/* Render the StarRating component */}
               <StarRating
                 totalStars={5}
-                initialRating={ratings[val.id] || 4.5 } // Use the stored rating, default to 0
-                 onRate={(value) => handleRate(val.id, value)} // Pass the item ID and rating value
-                isFavorite={favorites[val.id] || false} // Use the stored favorite status, default to false
-                onFavorite={() => toggleFavorite(val.id)} // Pass the item ID
+                // Use the stored rating, default to 0
               />
             </div>
           ))}
@@ -85,6 +91,7 @@ function Searchs() {
 }
 
 export default Searchs;
+
 
 // function Searchs() {
 //   const [searchTerm, setSearchTerm] = useState('');
