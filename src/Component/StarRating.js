@@ -7,7 +7,13 @@ const StarRating = ({ totalStars }) => {
 
   useEffect(() => {
     const generateRandomRating = () => {
-      const randomRating = Math.floor(Math.random() * totalStars) + 1;
+      // const randomRating = Math.floor(Math.random() * totalStars) + 1;
+   
+const randomRating = Math.floor(Math.random() * 3) + 2; // Generates a random number between 3 and 5
+
+ // Output the random rating
+
+
       setRating(randomRating);
     };
 
@@ -15,7 +21,7 @@ const StarRating = ({ totalStars }) => {
     generateRandomRating();
 
     // Refresh rating every 3 seconds
-    const intervalId = setInterval(generateRandomRating, 4000);
+    const intervalId = setInterval(generateRandomRating, 19000);
 
     // Clean up interval
     return () => clearInterval(intervalId);

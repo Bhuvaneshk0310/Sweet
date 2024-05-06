@@ -83,6 +83,8 @@
     color: rgb(86, 200, 126);
   }
   .heart{
+    margin-top: 20px;
+    margin-right: 200px;
     border-radius: 15px;
     border: solid 1px #f6f6f6;
     background-color: #fff;
