@@ -1,10 +1,9 @@
-
+/* 
 .container{
-  
-    display: flex;
+   display: flex; 
    
-}
-.container > .searchInput_Container{
+} */
+.container>.searchInput_Container {
     position: fixed;
     width: 100%;
     left: 0;
@@ -12,38 +11,43 @@
     z-index: 2;
     background-color: #fff;
     padding-bottom: 10px;
-    padding-top:50px;
+    padding-top: 50px;
     /* display: flex; */
     align-items: center;
     justify-content: center;
     margin: 0 auto;
 }
-.container > .searchInput_Container input{
+
+.container>.searchInput_Container input {
     width: 50%;
     padding: 10px;
     outline: none;
-   
+
 }
-#searchInput{
+
+#searchInput {
     border-radius: 15px;
 }
-#searchInput :hover{
-   
+
+#searchInput :hover {
+
     border-color: aqua;
 }
+
 .container .container-fluid {
-   
+
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-content: center;
-    
+
     margin-top: 5% !important;
     margin: 0 auto;
 }
-.container .container-fluid  .template{
+
+.container .container-fluid .template {
     background-color: white;
-   border-radius: 20px;
-    
+    border-radius: 20px;
+
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     width: 18rem;
     height: 22rem;
@@ -52,44 +56,50 @@
     padding: 0px 15px;
 }
 
-.container .container-fluid  .template img{
+.container .container-fluid .template img {
     height: 220px;
-    width:220px ;
+    width: 220px;
     margin-top: 20px;
 }
-.sea1{
+
+.sea1 {
     height: 30px;
     position: relative;
-   padding-bottom: 5px;
-    left:-3%;
+    padding-bottom: 5px;
+    left: -3%;
 }
-.title{
+
+.title {
     font-size: 20px;
     text-decoration-line: none;
     color: black;
-   
+
 }
-#tp2{
-    box-shadow:none;
+
+#tp2 {
+    box-shadow: none;
 }
+
 .star {
     cursor: pointer;
     color: rgba(10, 130, 40, 0.646);
-    
-  }
-  
-  .star:hover,
-  .star:hover ~ .star {
+
+}
+
+.star:hover,
+.star:hover~.star {
     color: rgb(86, 200, 126);
-  }
-  .heart{
+}
+
+.heart {
     margin-top: 20px;
     margin-right: 200px;
     border-radius: 15px;
     border: solid 1px #f6f6f6;
     background-color: #fff;
-  }
-  .stars{
+}
+
+.stars {
     margin-left: 90px;
     margin-bottom: 300px;
-  }
+}

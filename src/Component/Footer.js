@@ -1,9 +1,9 @@
 import React from 'react'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 const Footer = () => {
   return (
     <div>
-      <div class="bg-body-tertiary text-center">
+      <div class="bg-body-dark text-center">
 
         <div class="container p-4">
 
@@ -158,8 +158,8 @@ const Footer = () => {
         </div>
 
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-          © 2020 Copyright:
-          <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          © 2024 Copyright:
+          <a class="text-reset fw-bold" href="https://mdbootstrap.com/">www.Sweets.com</a>
         </div>
 
       </div>
