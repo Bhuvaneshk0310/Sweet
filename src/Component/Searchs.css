@@ -1,8 +1,6 @@
-/* 
-.container{
-   display: flex; 
-   
-} */
+
+
+ 
 .container>.searchInput_Container {
     position: fixed;
     width: 100%;
@@ -11,7 +9,7 @@
     z-index: 2;
     background-color: #fff;
     padding-bottom: 10px;
-    padding-top: 50px;
+    padding-top: 35px;
     /* display: flex; */
     align-items: center;
     justify-content: center;
@@ -25,13 +23,14 @@
 
 }
 
-#searchInput {
+.searchInput:focus {
     border-radius: 15px;
-}
+    border-color:rgb(118, 27, 238);
+} 
 
-#searchInput :hover {
-
-    border-color: aqua;
+.searchInput {
+    border-radius: 15px;
+    border-color:rgb(208, 174, 252);
 }
 
 .container .container-fluid {
@@ -49,17 +48,17 @@
     border-radius: 20px;
 
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-    width: 18rem;
-    height: 22rem;
+    width: 19rem;
+    height: 25rem;
     margin-top: 20px;
     margin: 20px;
     padding: 0px 15px;
 }
 
 .container .container-fluid .template img {
-    height: 220px;
-    width: 220px;
-    margin-top: 20px;
+    height: 210px;
+    width: 210px;
+    margin-top: 1px;
 }
 
 .sea1 {
@@ -81,6 +80,8 @@
 }
 
 .star {
+    width: 200px;
+    height: 100px;
     cursor: pointer;
     color: rgba(10, 130, 40, 0.646);
 
@@ -100,6 +101,6 @@
 }
 
 .stars {
-    margin-left: 90px;
-    margin-bottom: 300px;
+    margin-left: 190px;
+    
 }

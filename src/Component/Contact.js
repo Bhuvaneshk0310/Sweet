@@ -7,7 +7,7 @@ const Contact = () => {
       
       <div class="container-fluid contact text-center  ">
        
-        <div class="row pt-5">
+        <div class="row pt-5 pb-5">
           <div class="col-3  ">
             <h2 className='mb-5'>Get to Know Us</h2>
             <p>About Us</p>
@@ -19,7 +19,10 @@ const Contact = () => {
             <h2 className='mb-5'>Connect with Us</h2>
             <p>Facebook</p>
             <p>Twitter</p>
-            <p>Instagram</p></div>
+            <p>Instagram</p>
+            <p>Whatapp</p>
+            <p>Google</p>
+            </div>
           <div class="col-3  ">
             <h2 className='mb-5'>Make Money with Us</h2>
             <p>Sell on Sweets</p>
@@ -40,14 +43,15 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div class="bg-body-dark text-center">
+      <div class="f22 ">
 
 <div class="container p-4">
 
   <section class="mb-4">
 
-    <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
-    ><i class="fab fa-facebook-f"></i></a>
+  <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
 
 
     <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
@@ -91,7 +95,7 @@ const Contact = () => {
 
         <div class="col-auto">
 
-          <button data-mdb-ripple-init type="submit" class="btn btn-outline mb-4">
+          <button data-mdb-ripple-init type="submit" class="btn btn-outline-dark mb-4">
             Subscribe
           </button>
         </div>
@@ -194,14 +198,18 @@ const Contact = () => {
 
 </div>
 
-
+</div>
 <div className="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
   © 2024 Copyright:
   <a className="text-reset fw-bold" href="https://mdbootstrap.com/">www.Sweets.com</a>
+
+  <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
 </div>
 
 
-</div>
+
     </div>
   )
 }

@@ -3,21 +3,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Footer = () => {
   return (
     <div>
-      <div class="bg-body-dark text-center">
+      <div class="bg text-center">
 
         <div class="container p-4">
 
           <section class="mb-4">
 
-            <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
-            ><i class="fab fa-facebook-f"></i></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i></a>
 
 
-            <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
-            ><i class="fab fa-twitter"></i></a>
+<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i></a>
 
 
-            <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+            <a data-mdb-ripple-init class="btn btn-outline btn-floating btn-large red m-1" href="#!" role="button"
             ><i class="fab fa-google"></i></a>
 
 

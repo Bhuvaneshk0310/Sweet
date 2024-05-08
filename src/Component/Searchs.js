@@ -56,7 +56,8 @@ function Searchs() {
       <div className="container p-5 my-5 ">
         <div className="searchInput_Container">
           <input
-            id="searchInput"
+           className="searchInput control"
+            // class="form-control input-text" 
             type="text"
             placeholder="Search something Sweet..."
             value={searchTerm}

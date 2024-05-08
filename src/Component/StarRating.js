@@ -21,7 +21,7 @@ const randomRating = Math.floor(Math.random() * 3) + 2; // Generates a random nu
     generateRandomRating();
 
     // Refresh rating every 3 seconds
-    const intervalId = setInterval(generateRandomRating, 19000);
+    const intervalId = setInterval(generateRandomRating, 33000);
 
     // Clean up interval
     return () => clearInterval(intervalId);
