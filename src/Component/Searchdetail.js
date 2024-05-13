@@ -2,7 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import data from "./TemplateData.json";
 import "./Searchdetail.css";
+import StarRating from './StarRating';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 const Searchdetail = () => {
     const { id } = useParams();
@@ -18,21 +21,21 @@ const Searchdetail = () => {
         setSearchItem(item);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-useEffect(() => {
-    const fetchData = async () => {
-        try {
-            const response = await fetch("./TemplateData.json" + valueId);
-            const jsonData = await response.json();
-            setSearchItem(jsonData.data);
-            console.log(jsonData.data);
-        } catch (error) {
-            console.error('Error fetching data:', error);
-        }
-    };
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await fetch("./TemplateData.json" + valueId);
+                const jsonData = await response.json();
+                setSearchItem(jsonData.data);
+                console.log(jsonData.data);
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        };
 
-    fetchData(); // Call fetchData inside useEffect
+        fetchData(); // Call fetchData inside useEffect
 
-}, []); // Empty dependency array
+    }, []); // Empty dependency array
 
 
     return (
@@ -41,13 +44,88 @@ useEffect(() => {
             <div id="card">
                 {searchItem && (
                     <div key={searchItem.id}>
-                   
-<div class="container-fluid p-5 my-5 border">
-                        <img className="sweetimg " src={searchItem.background} alt={searchItem.title} />
-                        <h3>{searchItem.title}</h3>
-                        <p className="price">₹{searchItem.price}</p>
-                        <button className='shopcart'>Add to Cart</button>
-                    </div>
+
+
+                        <div class="container">
+                            <div class="product-content product-wrap clearfix product-deatil">
+                                <div class="row">
+                                    <div class="col-md-5 col-sm-12 col-xs-12">
+                                        <div class="product-image">
+                                            <div id="myCarousel-2" class="carousel slide">
+                                                <ol class="carousel-indicators">
+                                                    <li data-target="#myCarousel-2" data-slide-to="0" class=""></li>
+                                                    <li data-target="#myCarousel-2" data-slide-to="1" class="active"></li>
+                                                    <li data-target="#myCarousel-2" data-slide-to="2" class=""></li>
+                                                </ol>
+                                                <div class="carousel-inner">
+
+                                                    <div class="item active">
+                                                        <img className="sweetimg " src={searchItem.background} alt={searchItem.title} />  </div>
+
+                                                    {/* <div class="item">
+                                                        <img className="sweetimg " src={searchItem.background} alt={searchItem.title} />    </div>
+
+                                                    <div class="item">
+                                                        <img className="sweetimg " src={searchItem.background} alt={searchItem.title} /> </div>
+                                               */} </div>
+                                                <a class="left carousel-control" href="#myCarousel-2" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+                                                <a class="right carousel-control" href="#myCarousel-2" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-md-6 col-md-offset-1 col-sm-12 col-xs-12">
+                                        <h2 class="name">
+                                           <h1 className=''> {searchItem.title}</h1>
+                                            <small>Product by <a href="javascript:void(0);">Sweet Stores</a></small>
+
+                                            <a><StarRating totalStars={5} /></a>
+                                            <a class=" fs-5 px-3">(109) Votes <a href="javascript:void(0);">109 customer reviews</a></a>
+                                        </h2>
+                                        <hr />
+                                        <h3 class="price-container">
+                                            ₹{searchItem.price}
+                                            <small>*includes tax</small>
+                                        </h3>
+                                        <div class="certified">
+                                            <ul>
+                                                <li>
+                                                    <a href="javascript:void(0);">Delivery time<span>7 Working Days</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0);">Certified<span>Quality Assured</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <hr />
+                                        <div class="row">
+                                            <div class="col-sm-12 col-md-6 col-lg-6">
+                                                <a href="javascript:void(0);" class="btn btn-success btn-lg">Add to cart ($129.54)</a>
+                                            </div>
+                                            <div class="col-sm-12 col-md-6 col-lg-6">
+                                                <div class="btn-group pull-right">
+                                                    <button class="btn btn-white btn-default"><i class="fa fa-star"></i> Add to wishlist</button>
+                                                    <button class="btn btn-white btn-default"><i class="fa fa-envelope"></i> Contact Seller</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
                     </div>
                 )}
             </div>

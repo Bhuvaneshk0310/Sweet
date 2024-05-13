@@ -80,17 +80,11 @@
 }
 
 .star {
-    width: 200px;
-    height: 100px;
-    cursor: pointer;
-    color: rgba(10, 130, 40, 0.646);
+   
+    color: rgb(13 110 253);
 
 }
 
-.star:hover,
-.star:hover~.star {
-    color: rgb(86, 200, 126);
-}
 
 .heart {
     margin-top: 20px;
@@ -101,6 +95,7 @@
 }
 
 .stars {
-    margin-left: 190px;
+   
+    margin-left: -178px;
     
 }

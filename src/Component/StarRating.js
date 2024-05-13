@@ -21,10 +21,10 @@ const randomRating = Math.floor(Math.random() * 3) + 2; // Generates a random nu
     generateRandomRating();
 
     // Refresh rating every 3 seconds
-    const intervalId = setInterval(generateRandomRating, 33000);
+    // const intervalId = setInterval(generateRandomRating, 33000);
 
     // Clean up interval
-    return () => clearInterval(intervalId);
+    // return () => clearInterval(intervalId);
   }, [totalStars]);
 
   return (
@@ -41,7 +41,7 @@ const randomRating = Math.floor(Math.random() * 3) + 2; // Generates a random nu
             </span>
           );
         })}
-        <span>{rating}</span>
+        {/* <span>{rating}</span> */}
       </div>
     </div>
   );

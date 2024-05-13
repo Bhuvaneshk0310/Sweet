@@ -4,14 +4,15 @@
         "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTzsy2_l2_ZtY_xOb4Y8uh79EwlfMbmpqiUhrz1sjlPquudzqf9 ",
         "title": "Rosogulla (100g)",
         "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwqpcLLWcmGJEHQmLgAOFPYnC53mKCoU_H_WsI6Rfu7b6L12R1",
-        "price": 335
+        "price": 335.57
+        
     },
     {
         "id": 2,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOfqX92SjY4BHB8BnjQoFJeURb0eW5iLVkJ5fa-ybZrNNpy3zt",
         "title": "Mysore Pak (100g)",
         "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRHmq46DQtwuxyoTyw77GoChZEbEitBUInplxFsFjB0iPG0Ik-a",
-        "price": 450
+        "price": 450.32
         
     },
     {

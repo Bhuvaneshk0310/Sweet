@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Searchs.css";
 import data from "./TemplateData.json";
 import * as image from "../Component/ImagesFolder/Image";
-import StarRating from './StarRating';
+// import StarRating from './StarRating';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Footer from "./Footer";
@@ -81,11 +81,8 @@ function Searchs() {
                   </div>
                 </Link>
               </div>
-              {/* Render the StarRating component */}
-              <StarRating
-                totalStars={5}
-                // Use the stored rating, default to 0
-              />
+              {/* Render the StarRating component 
+              <StarRating  totalStars={5} />*/}
             </div>
           ))}
         </div>
