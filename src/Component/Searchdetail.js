@@ -5,6 +5,8 @@ import "./Searchdetail.css";
 import StarRating from './StarRating';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import $ from 'jquery'; // Import jQuery
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 
 const Searchdetail = () => {
@@ -46,33 +48,40 @@ const Searchdetail = () => {
                     <div key={searchItem.id}>
 
 
-                        <div class="container">
+                        <div class="container ">
                             <div class="product-content product-wrap clearfix product-deatil">
                                 <div class="row">
-                                    <div class="col-md-5 col-sm-12 col-xs-12">
-                                        <div class="product-image">
-                                            <div id="myCarousel-2" class="carousel slide">
-                                                <ol class="carousel-indicators">
-                                                    <li data-target="#myCarousel-2" data-slide-to="0" class=""></li>
-                                                    <li data-target="#myCarousel-2" data-slide-to="1" class="active"></li>
-                                                    <li data-target="#myCarousel-2" data-slide-to="2" class=""></li>
-                                                </ol>
-                                                <div class="carousel-inner">
+                                <div class="col-md-5 col-sm-12 col-xs-12 bg-dark">
+        <div class="product-image">
+            <div id="myCarousel-2" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#myCarousel-2" data-slide-to="0"></li>
+                    <li data-target="#myCarousel-2" data-slide-to="1" class="active"></li>
+                    <li data-target="#myCarousel-2" data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="sweetimg" src={searchItem.b1} alt={searchItem.title}/>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="sweetimg" src={searchItem.image} alt={searchItem.title}/>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="sweetimg" src={searchItem.background} alt={searchItem.title}/>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel-2" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel-2" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
 
-                                                    <div class="item active">
-                                                        <img className="sweetimg " src={searchItem.background} alt={searchItem.title} />  </div>
-
-                                                    {/* <div class="item">
-                                                        <img className="sweetimg " src={searchItem.background} alt={searchItem.title} />    </div>
-
-                                                    <div class="item">
-                                                        <img className="sweetimg " src={searchItem.background} alt={searchItem.title} /> </div>
-                                               */} </div>
-                                                <a class="left carousel-control" href="#myCarousel-2" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
-                                                <a class="right carousel-control" href="#myCarousel-2" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
-                                            </div>
-                                        </div>
-                                    </div>
 
 
                                     <div class="col-md-6 col-md-offset-1 col-sm-12 col-xs-12">
@@ -129,6 +138,7 @@ const Searchdetail = () => {
                     </div>
                 )}
             </div>
+            
         </div>
     );
 }

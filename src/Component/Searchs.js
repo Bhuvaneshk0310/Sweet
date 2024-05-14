@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Searchs.css";
 import data from "./TemplateData.json";
 import * as image from "../Component/ImagesFolder/Image";
-// import StarRating from './StarRating';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Footer from "./Footer";
