@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import "./Searchs.css";
 import data from "./TemplateData.json";
 import * as image from "../Component/ImagesFolder/Image";
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import Footer from "./Footer";
+import Footer from './Footer';
+
 
 function Searchs() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -52,7 +52,7 @@ function Searchs() {
   };
 
   return (
-    <>
+    <div>
       <div className="container p-5 my-5 ">
         <div className="searchInput_Container">
           <input
@@ -87,7 +87,8 @@ function Searchs() {
           ))}
         </div>
       </div>
-    </>
+      <Footer/>
+    </div>
   );
 }
 

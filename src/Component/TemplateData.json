@@ -5,15 +5,17 @@
         "title": "Rosogulla (100g)",
         "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwqpcLLWcmGJEHQmLgAOFPYnC53mKCoU_H_WsI6Rfu7b6L12R1",
         "price": 335.57,
-        "b1":"https://img.freepik.com/free-photo/delicious-indian-dessert-arrangement-view_23-2149312354.jpg?w=826&t=st=1715682908~exp=1715683508~hmac=874cf5cafcec1785dddeae5884788137e0ed64a1db8256f3fbf8c7b858310778"
-        
+        "b1":"https://img.freepik.com/free-photo/delicious-indian-dessert-arrangement-view_23-2149312354.jpg?w=826&t=st=1715682908~exp=1715683508~hmac=874cf5cafcec1785dddeae5884788137e0ed64a1db8256f3fbf8c7b858310778",
+        "originalPrice": 350
+       
     },
     {
         "id": 2,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOfqX92SjY4BHB8BnjQoFJeURb0eW5iLVkJ5fa-ybZrNNpy3zt",
         "title": "Mysore Pak (100g)",
         "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRHmq46DQtwuxyoTyw77GoChZEbEitBUInplxFsFjB0iPG0Ik-a",
-        "price": 450.32
+        "price": 450.32,
+        "originalPrice": 350
         
     },
     {
@@ -21,49 +23,56 @@
         "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT_pbRUxrAWByCuu8CGGr4qMTsSLs9gU_Ug7YPSeSpBM9FJF1qF",
         "title": "Gulab Jamun (100g)",
         "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwqpcLLWcmGJEHQmLgAOFPYnC53mKCoU_H_WsI6Rfu7b6L12R1",
-        "price": 200
+        "price": 200,
+        "originalPrice": 350
     },
     {
         "id": 4,
         "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS-cOZyou2s0uCVqWlyp3VOiWS3cKicZtS6JqGNE6paaOPZLZS3",
         "title": "Mabrumeh (100g)",
         "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwqpcLLWcmGJEHQmLgAOFPYnC53mKCoU_H_WsI6Rfu7b6L12R1",
-        "price": 200
+        "price": 200,
+        "originalPrice": 350
     },
     {
         "id": 5,
         "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSGnncoqt-FPaekYrW993DAXaPrp-Cd5lATemG_xCVOUPzvV0Yk",
         "title": "Kaju Katli (100g)",
         "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwqpcLLWcmGJEHQmLgAOFPYnC53mKCoU_H_WsI6Rfu7b6L12R1",
-        "price": 200
+        "price": 200,
+        "originalPrice": 350
     },
     {
         "id": 6,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROxPJx-8FYbM1R0jU0s7WdeUl56avHT9l_n0DVbFUiu06CjP60",
         "title": "Doodh Barfi  (100g)",
         "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwqpcLLWcmGJEHQmLgAOFPYnC53mKCoU_H_WsI6Rfu7b6L12R1",
-        "price": 200
+        "price": 200,
+        "originalPrice": 350
     },
     {
         "id": 7,
         "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTVX97EcXbolQkXxutqrUm8wPZmNGlTl_0j8FuIcZYwMNcddmIt",
         "title": "Jalebi (100g)",
         "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwqpcLLWcmGJEHQmLgAOFPYnC53mKCoU_H_WsI6Rfu7b6L12R1",
-        "price": 200
+        "price": 200,
+        "originalPrice": 350
     },
     {
         "id": 8,
         "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQeSK__l3zSRKCDPZnzEM0L_65kaJCxi5Qh4PDL-hbTOvOSrCyl  ",
         "title": "Motichur Laddu (100g)",
         "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwqpcLLWcmGJEHQmLgAOFPYnC53mKCoU_H_WsI6Rfu7b6L12R1",
-        "price": 200
+        "price": 200,
+        "originalPrice": 350
     },
     {
         "id": 9,
         "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTcVFWOoX2T7ZLZD0NfXqhTrn573JeooFQZm8zCIyHTnoD7ZKuC",
         "title": "Balushahi (100g)",
         "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwqpcLLWcmGJEHQmLgAOFPYnC53mKCoU_H_WsI6Rfu7b6L12R1",
-        "price": 200
+        "price": 200,
+        "originalPrice": 350
 
     }
     ,
@@ -72,7 +81,8 @@
         "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTJ8xjceQnS1g_-ePPu_aERD6J9mfSw1_3J78im87TSCEVFlEo_",
         "title": "Madatha Kaja  (100g)",
         "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwqpcLLWcmGJEHQmLgAOFPYnC53mKCoU_H_WsI6Rfu7b6L12R1",
-        "price": 200
+        "price": 200,
+        "originalPrice": 350
         
     }
     ,
@@ -81,7 +91,8 @@
         "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ2I8Giwr5pfXfRwBf7CqLrQOBWvmnF9doVOKP22FgcmFiIz1A9",
         "title": "Rava Laddu (100g)",
         "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwqpcLLWcmGJEHQmLgAOFPYnC53mKCoU_H_WsI6Rfu7b6L12R1",
-        "price": 200
+        "price": 200,
+        "originalPrice": 350
         
     }
     ,
@@ -90,7 +101,8 @@
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS59MSLWvMXyOW7jX_RjoNTrXOCIp1BDzlDNwVbwXldMsORrzvq",
         "title": "Namoura (100g)",
         "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwqpcLLWcmGJEHQmLgAOFPYnC53mKCoU_H_WsI6Rfu7b6L12R1",
-        "price": 200
+        "price": 200,
+        "originalPrice": 350
         
     }
     ,
@@ -99,7 +111,8 @@
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS59MSLWvMXyOW7jX_RjoNTrXOCIp1BDzlDNwVbwXldMsORrzvq",
         "title": "Namoura (100g)",
         "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwqpcLLWcmGJEHQmLgAOFPYnC53mKCoU_H_WsI6Rfu7b6L12R1",
-        "price": 200
+        "price": 200,
+        "originalPrice": 350
         
     }
     ,
@@ -108,7 +121,8 @@
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS59MSLWvMXyOW7jX_RjoNTrXOCIp1BDzlDNwVbwXldMsORrzvq",
         "title": "Namoura (100g)",
         "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwqpcLLWcmGJEHQmLgAOFPYnC53mKCoU_H_WsI6Rfu7b6L12R1",
-        "price": 200
+        "price": 200,
+        "originalPrice": 350
         
     }
     ,
@@ -117,7 +131,8 @@
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS59MSLWvMXyOW7jX_RjoNTrXOCIp1BDzlDNwVbwXldMsORrzvq",
         "title": "Namoura (100g)",
         "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwqpcLLWcmGJEHQmLgAOFPYnC53mKCoU_H_WsI6Rfu7b6L12R1",
-        "price": 200
+        "price": 200,
+        "originalPrice": 350
         
     }
     ,
@@ -126,7 +141,8 @@
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS59MSLWvMXyOW7jX_RjoNTrXOCIp1BDzlDNwVbwXldMsORrzvq",
         "title": "Namoura (100g)",
         "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwqpcLLWcmGJEHQmLgAOFPYnC53mKCoU_H_WsI6Rfu7b6L12R1",
-        "price": 200
+        "price": 200,
+        "originalPrice": 350
         
     }
 ]

@@ -110,7 +110,7 @@ const Searchdetail = () => {
                                         <hr />
                                         <div class="row">
                                             <div class="col-sm-12 col-md-6 col-lg-6">
-                                                <a href="javascript:void(0);" class="btn btn-success btn-lg">Add to cart ($129.54)</a>
+                                                <a href="javascript:void(0);" class="btn btn-success btn-lg"onClick={Cart}>Add to cart </a>
                                             </div>
                                             <div class="col-sm-12 col-md-6 col-lg-6">
                                                 <div class="btn-group pull-right">

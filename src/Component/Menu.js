@@ -1,6 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import * as image from "../Component/ImagesFolder/Image"
+import Footer from './Footer';
 const Menu = () => {
   return (
     <div>
@@ -14,13 +15,13 @@ const Menu = () => {
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="sweetimg" src="../bootstrap excerise/tree.jpg" alt="{searchItem.title}"/>
+                        <img class="sweetimg" src={image.b1} alt="{searchItem.title}"/>
                     </div>
                     <div class="carousel-item">
-                        <img class="sweetimg" src="../bootstrap excerise/img7.png" alt="{searchItem.title}"/>
+                        <img class="sweetimg" src={image.home} alt="{searchItem.title}"/>
                     </div>
                     <div class="carousel-item">
-                        <img class="sweetimg" src="../Image Flo/img8.png" alt="{searchItem.title}"/>
+                        <img class="sweetimg" src={image.home} alt="{searchItem.title}"/>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#myCarousel-2" role="button" data-slide="prev">
@@ -39,7 +40,7 @@ const Menu = () => {
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdncom/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-      
+      <Footer/>
     </div>
   )
 }

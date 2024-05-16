@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Home.css";
-// import Footer from './Footer';
+import Footer from './Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Home = () => {
@@ -25,7 +25,7 @@ const Home = () => {
         </div>
       
        
-    
+    <Footer/>
 
     
       

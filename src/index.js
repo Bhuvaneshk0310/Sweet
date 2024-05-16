@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -20,6 +21,7 @@ import Signin from './Component/Signin';
 import Help from './Component/Help';
 import Searchdetail from './Component/Searchdetail';
 import Footer from './Component/Footer';
+import Menu from './Component/Menu';
 
 
 
@@ -38,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: "/Home",
         element: <Home />,
+      },
+      {
+        path: "/Menu",
+        element: <Menu />,
       },
       {
         path: "/Searchs",
