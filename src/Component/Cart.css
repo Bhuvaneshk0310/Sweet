@@ -1,13 +1,14 @@
 .brand{
     width: 211px;
     height: 56px;
-    border: solid red 1px;
+    
     padding-top: 17px;
     padding-left: 41px;
     text-decoration: none;
      font-size: 14px;
     font-weight: 700;
 }
+
 #c1{
     width: 100%;
     height: 100%;
@@ -138,8 +139,8 @@
 
 /* cartcss */
   .avatar-lg {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
 }
 .font-size-18 {
     font-size: 18px;
@@ -149,4 +150,41 @@
 }
 .fw-medium {
     font-weight: 500;
+}
+.card-body{
+  margin-top: 3%;
+}
+.inp input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.inp input:hover {
+  border-color: #007bff; /* Change the color to your preferred hover color */
+}
+.flex-shrink-0 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.flex-shrink-0 ul li {
+  display: inline;
+}
+
+.flex-shrink-0 ul li a {
+  color: #6c757d; /* Initial color */
+  transition: color 0.3s ease-in-out;
+}
+
+.flex-shrink-0 ul li a:hover {
+  color: #000; /* Color on hover */
+}
+
+.flex-shrink-0 ul li a i {
+  font-size: 16px;
 }
