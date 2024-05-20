@@ -16,9 +16,9 @@ const Footer = () => {
     <div class="row gy-3 align-items-center">
       <div class="col-12 col-sm-6">
         <div class="footer-logo-wrapper text-center text-sm-start">
-          <a href="/Home">
-        <img className="fs1 mb-5" src={image.s} alt="s" width="50" height="50"/></a>
-        <a class="navf-brand mt-3" href="/Home">Sweets</a>
+          <span href="/Home">
+        <img className="fs1 mb-5" src={image.s} alt="s" width="50" height="50"/>        <span class="navf-brand mt-3" href="/Home">Sweets</span></span>
+
            
           
         </div>

@@ -56,8 +56,8 @@
 }
 
 .container .container-fluid .template img {
-    height: 150px;
-    width: 170px;
+    height: 160px;
+    width: 210px;
     margin-top: 1px;
 }
 
@@ -94,8 +94,3 @@
     background-color: #fff;
 }
 
-.stars {
-   
-    margin-left: -178px;
-    
-}

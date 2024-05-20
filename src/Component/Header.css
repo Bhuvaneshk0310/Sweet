@@ -99,7 +99,6 @@
 }
 
 #Nav {
-  /* display: flex !important; */
   width: 575px;
   height: 48px;
   margin-left: 180px;
@@ -109,7 +108,7 @@
 }
 
 .nav1 {
-  display: flex !important;
+
   height: 30px;
   transform: translate(-20%, -25%);
   align-items: center;
@@ -231,4 +230,3 @@ color: azure;
 font-size: 24px;
 font-weight: 900;
 }
-

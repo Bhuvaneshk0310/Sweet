@@ -81,8 +81,7 @@ function Searchs() {
                   </div>
                 </Link>
               </div>
-              {/* Render the StarRating component 
-              <StarRating  totalStars={5} />*/}
+             
             </div>
           ))}
         </div>

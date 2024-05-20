@@ -1,6 +1,5 @@
-// src/Component/Searchdetail.js
 import React, { useEffect, useState, useContext } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import data from "./TemplateData.json";
 import StarRating from './StarRating';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -9,7 +8,6 @@ import "./Searchdetail.css";
 
 const Searchdetail = () => {
     const { id } = useParams();
-    const navigate = useNavigate();
     const valueId = parseInt(id);
     const [searchItem, setSearchItem] = useState({});
     const { addToCart } = useContext(CartContext);
@@ -26,6 +24,7 @@ const Searchdetail = () => {
 
     return (
         <div>
+             <div className="container">
             <div className="Searchd">
 
                 {searchItem && (
@@ -67,7 +66,7 @@ const Searchdetail = () => {
                                         <h2 className="name">
                                             {searchItem.title}
                                             <small>Product by <a href="#">Sweet Stores</a></small>
-                                            <StarRating totalStars={5} />
+                                            <p><StarRating totalStars={5} /></p>
                                             <a className="fs-5 px-3">(109) Votes <a href="#">109 customer reviews</a></a>
                                         </h2>
                                         <hr />
@@ -103,6 +102,7 @@ const Searchdetail = () => {
                         </div>
                     </div>
                 )}
+            </div>
             </div>
         </div>
     );

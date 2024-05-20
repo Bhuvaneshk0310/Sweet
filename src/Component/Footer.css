@@ -23,7 +23,9 @@
   
   }
   .fs1{
+    display: flex;
     height: 70px;
     width: 70px;
     margin-top: 21px;
+
   }

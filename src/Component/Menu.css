@@ -4,9 +4,26 @@
     height: auto;
     text-align: center;
 }
-/* .sweetimg {
-     width: 45%; 
-    height: 300px;
-    margin-top: 27px;
-    /* searchItem.image
-} */
+/* Menu.css */
+
+  
+  .carousel-inner {
+    max-height: 800px;
+  }
+  
+  .carousel-item img {
+    max-height: 680px;
+    
+  }
+  
+  
+  .carousel-control-next-icon {
+   width: 20px;
+   height:20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+  }
+  .carousel-control-prev-icon{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+  }
