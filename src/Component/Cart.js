@@ -4,7 +4,11 @@ import './Cart.css';
 import * as image from "../Component/ImagesFolder/Image";
 import '@mdi/font/css/materialdesignicons.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+<<<<<<< HEAD
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; 
+=======
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Optional: for Bootstrap's JavaScript components
+>>>>>>> a5097d5d5851bd06b8674515dfdaa2365f697237
 import { Card } from 'react-bootstrap';
 import { CartContext } from './CartContext';
 import StarRating from './StarRating';
