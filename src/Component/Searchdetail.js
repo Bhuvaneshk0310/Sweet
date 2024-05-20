@@ -21,79 +21,80 @@ const Searchdetail = () => {
 
     const handleAddToCart = () => {
         addToCart(searchItem);
-        // navigate('/Cart');
+
     };
 
     return (
         <div>
-            <div className="Searchd mt-5">
-          
-            {searchItem && (
-                <div key={searchItem.id}>
-                    <div className="container">
-                        <div className="product-content product-wrap clearfix product-deatil">
-                            <div className="row">
-                                <div className="col-md-5 col-sm-12 col-xs-12">
-                                    <div className="product-image">
-                                        <div id="myCarousel-2" className="carousel slide" data-ride="carousel">
-                                            <ul className="carousel-indicators">
-                                                <li data-target="#myCarousel-2" data-slide-to="0"></li>
-                                                <li data-target="#myCarousel-2" data-slide-to="1" className="active"></li>
-                                                <li data-target="#myCarousel-2" data-slide-to="2"></li>
-                                            </ul>
-                                            <div className="carousel-inner">
-                                                <div className="carousel-item active">
-                                                    <img className="sweetimg" src={searchItem.image} alt={searchItem.title} />
+            <div className="Searchd">
+
+                {searchItem && (
+                    <div key={searchItem.id}>
+                        <div className="container">
+                            <div className="product-content product-wrap clearfix product-deatil">
+                                <div className="row">
+                                    <div className="col-md-6 col-sm-12 col-xs-12">
+                                        <div className="product-image">
+                                            <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+                                                <div className="carousel-indicators">
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                                 </div>
-                                                <div className="carousel-item">
-                                                    <img className="sweetimg" src={searchItem.b1} alt={searchItem.title} />
+                                                <div className="carousel-inner">
+                                                    <div className="carousel-item active">
+                                                        <img src={searchItem.image} className="sweetimg" alt="Slide 1" />
+                                                    </div>
+                                                    <div className="carousel-item">
+                                                        <img src={searchItem.image} className="sweetimg" alt="Slide 2" />
+                                                    </div>
+                                                    <div className="carousel-item">
+                                                        <img src={searchItem.image} className="sweetimg" alt="Slide 3" />
+                                                    </div>
                                                 </div>
-                                                <div className="carousel-item">
-                                                    <img className="sweetimg" src={searchItem.background} alt={searchItem.title} />
-                                                </div>
+                                                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span className="visually-hidden">Previous</span>
+                                                </button>
+                                                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span className="visually-hidden">Next</span>
+                                                </button>
                                             </div>
-                                            <a className="carousel-control-prev" href="#myCarousel-2" role="button" data-slide="prev">
-                                                <span className="carousel-control-prev-icon text-dark" aria-hidden="true"></span>
-                                                <span className="sr-only text-dark">Previous</span>
-                                            </a>
-                                            <a className="carousel-control-next" href="#myCarousel-2" role="button" data-slide="next">
-                                                <span className="carousel-control-next-icon text-dark" aria-hidden="true"></span>
-                                                <span className="sr-only text-dark">Next</span>
-                                            </a>
                                         </div>
                                     </div>
-                                </div>
-                                <div className="col-md-6 col-md-offset-1 col-sm-12 col-xs-12">
-                                    <h2 className="name">
-                                        {searchItem.title}
-                                        <small>Product by <a href="#">Sweet Stores</a></small>
-                                        <StarRating totalStars={5} />
-                                        <a className="fs-5 px-3">(109) Votes <a href="#">109 customer reviews</a></a>
-                                    </h2>
-                                    <hr />
-                                    <h3 className="price-container">
-                                        ₹{searchItem.price}
-                                        <small>*includes tax</small>
-                                    </h3>
-                                    <div className="certified">
-                                        <ul>
-                                            <li>
-                                                <a href="#">Delivery time<span>7 Working Days</span></a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Certified<span>Quality Assured</span></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <hr />
-                                    <div className="row">
-                                        <div className="col-sm-12 col-md-6 col-lg-6">
-                                            <button onClick={handleAddToCart} className="btn btn-success btn-lg">Add to cart</button>
+                                    <div className="col-md-6 col-md-offset-1 col-sm-12 col-xs-12">
+                                        <h2 className="name">
+                                            {searchItem.title}
+                                            <small>Product by <a href="#">Sweet Stores</a></small>
+                                            <StarRating totalStars={5} />
+                                            <a className="fs-5 px-3">(109) Votes <a href="#">109 customer reviews</a></a>
+                                        </h2>
+                                        <hr />
+                                        <h3 className="price-container">
+                                            ₹{searchItem.price}
+                                            <small>*includes tax</small>
+                                        </h3>
+                                        <div className="certified">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Delivery time<span>7 Working Days</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Certified<span>Quality Assured</span></a>
+                                                </li>
+                                            </ul>
                                         </div>
-                                        <div className="col-sm-12 col-md-6 col-lg-6">
-                                            <div className="btn-group pull-right">
-                                                <button className="btn btn-white btn-default"><i className="fa fa-star"></i> Add to wishlist</button>
-                                                <button className="btn btn-white btn-default"><i className="fa fa-envelope"></i> Contact Seller</button>
+                                        <hr />
+                                        <div className="row">
+                                            <div className="col-sm-12 col-md-6 col-lg-6">
+                                                <button onClick={handleAddToCart} className="btn btn-success btn-lg">Add to cart</button>
+                                            </div>
+                                            <div className="col-sm-12 col-md-6 col-lg-6">
+                                                <div className="btn-group pull-right">
+                                                    <button className="btn btn-white btn-default"><i className="fa fa-star"></i> Add to wishlist</button>
+                                                    <button className="btn btn-white btn-default"><i className="fa fa-envelope"></i> Contact Seller</button>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -101,9 +102,8 @@ const Searchdetail = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-            )}
-        </div>
+                )}
+            </div>
         </div>
     );
 }

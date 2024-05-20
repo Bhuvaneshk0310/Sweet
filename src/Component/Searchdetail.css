@@ -1,14 +1,15 @@
 .Searchd{
+ 
     width: 100%;
     height: 100%;
-    border: 1px solid royalblue;
-    margin-top: 5px;
+   background-color:  rgb(253, 253, 253);
+    
 }
 
 .sweetimg {
-    /* width: 45%; */
-    height: 300px;
-    margin-top: 27px;
+    width: 75%;
+    height: 360px;
+   
 
 }
 .product-deatil .product-image {
@@ -110,8 +111,8 @@
 
 .product-content {
     border: 1px solid #dfe5e9;
-    margin-bottom: 20px;
-    margin-top: 70px;
+  
+    margin-top: 10%;
     background: #fff
 }
 
@@ -128,14 +129,14 @@
 /* Specific style for the previous icon */
 .carousel-control-prev-icon {
   border: 1em solid transparent;
-  border-right-color: #007bff; /* Change this to your desired color */
+  border-right-color:  rgb(118, 27, 238); /* Change this to your desired color */
 }
 
 /* Specific style for the next icon */
 .carousel-control-next-icon {
   border: 1em solid transparent;
-  border-left-color: #007bff;
-  margin-right: -68px; /* Change this to your desired color */
+  border-left-color:  rgb(118, 27, 238);
+  /* margin-right: -68px; Change this to your desired color */
 }
 
 /* Ensuring proper sizing and positioning */
@@ -150,9 +151,9 @@
 } */
 
 .carousel-control-prev-icon::before {
-  border-right-color: #007bff; /* Change this to your desired color */
+  border-right-color:  rgb(118, 27, 238); /* Change this to your desired color */
 }
 
 .carousel-control-next-icon::before {
-  border-left-color: #007bff; /* Change this to your desired color */
+  border-left-color:  rgb(118, 27, 238); /* Change this to your desired color */
 }
