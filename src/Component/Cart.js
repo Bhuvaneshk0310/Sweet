@@ -1,4 +1,3 @@
-// src/Component/Cart.js
 import React, { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Cart.css';
@@ -6,7 +5,6 @@ import * as image from "../Component/ImagesFolder/Image";
 import '@mdi/font/css/materialdesignicons.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Optional: for Bootstrap's JavaScript components
-
 import { Card } from 'react-bootstrap';
 import { CartContext } from './CartContext';
 import StarRating from './StarRating';
