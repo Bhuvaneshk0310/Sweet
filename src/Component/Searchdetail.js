@@ -45,10 +45,10 @@ const Searchdetail = () => {
                                                         <img src={searchItem.image} className="sweetimg" alt="Slide 1" />
                                                     </div>
                                                     <div className="carousel-item">
-                                                        <img src={searchItem.image} className="sweetimg" alt="Slide 2" />
+                                                        <img src={searchItem.b1} className="sweetimg" alt="Slide 2" />
                                                     </div>
                                                     <div className="carousel-item">
-                                                        <img src={searchItem.image} className="sweetimg" alt="Slide 3" />
+                                                        <img src={searchItem.background} className="sweetimg" alt="Slide 3" />
                                                     </div>
                                                 </div>
                                                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -92,7 +92,7 @@ const Searchdetail = () => {
                                             <div className="col-sm-12 col-md-6 col-lg-6">
                                                 <div className="btn-group pull-right">
                                                     <button className="btn btn-white btn-default"><i className="fa fa-star"></i> Add to wishlist</button>
-                                                    <button className="btn btn-white btn-default"><i className="fa fa-envelope"></i> Contact Seller</button>
+                                                    <button className="btn btn-white btn-default"><i className="fa fa-envelope" href="/Contact"></i> Contact Seller</button>
                                                 </div>
                                             </div>
                                         </div>

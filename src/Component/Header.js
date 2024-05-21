@@ -12,7 +12,7 @@ const Header = () => {
       <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
         <div class="container-fluid">
         <img className="s1" src={image.s} alt="s" />
-          <a class="navbar-brand" href="/Home">Sweets</a>
+          <a class="navbar-brand" href="/Contact">Sweets</a>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
 

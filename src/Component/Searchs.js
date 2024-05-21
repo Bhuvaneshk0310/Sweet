@@ -57,8 +57,7 @@ function Searchs() {
         <div className="searchInput_Container">
           <input
            className="searchInput control"
-            // class="form-control input-text" 
-            type="text"
+                       type="text"
             placeholder="Search something Sweet..."
             value={searchTerm}
             onChange={handleSearch}
@@ -69,8 +68,8 @@ function Searchs() {
           {filteredData.map((val) => (
             <div className="template" key={val.id}>
               <FavoriteButton
-                isFavorite={val.isFavorite} // Pass the favorite state of each item
-                id={val.id} // Pass the item ID
+                isFavorite={val.isFavorite} 
+                id={val.id} 
               />
               <div>
                 <Link to={`/Searchdetail/${val.id}`}>

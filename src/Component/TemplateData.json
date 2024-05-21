@@ -15,16 +15,18 @@
         "title": "Mysore Pak (100g)",
         "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRHmq46DQtwuxyoTyw77GoChZEbEitBUInplxFsFjB0iPG0Ik-a",
         "price": 450.32,
-        "originalPrice": 350
+        "originalPrice": 350,
+        "b1":"https://static.vecteezy.com/system/resources/thumbnails/013/261/292/small/yellow-badam-burfi-free-png.png"
         
     },
     {
         "id": 3,
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT_pbRUxrAWByCuu8CGGr4qMTsSLs9gU_Ug7YPSeSpBM9FJF1qF",
+        "image": "https://static.vecteezy.com/system/resources/previews/039/111/419/non_2x/ai-generated-gulab-jamun-isolated-on-background-free-png.png",
         "title": "Gulab Jamun (100g)",
         "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwqpcLLWcmGJEHQmLgAOFPYnC53mKCoU_H_WsI6Rfu7b6L12R1",
         "price": 200,
-        "originalPrice": 350
+        "originalPrice": 350,
+        "b1":"https://static.vecteezy.com/system/resources/previews/013/167/420/non_2x/diwali-gulab-jamun-free-png.png"
     },
     {
         "id": 4,
@@ -44,23 +46,25 @@
     },
     {
         "id": 6,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROxPJx-8FYbM1R0jU0s7WdeUl56avHT9l_n0DVbFUiu06CjP60",
-        "title": "Doodh Barfi  (100g)",
-        "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwqpcLLWcmGJEHQmLgAOFPYnC53mKCoU_H_WsI6Rfu7b6L12R1",
+        "image": "https://static.vecteezy.com/system/resources/previews/013/261/984/non_2x/healthy-almond-burfi-free-png.png",
+        "title": "Almond Burfi  (100g)",
+        "background":"https://static.vecteezy.com/system/resources/previews/013/261/292/non_2x/yellow-badam-burfi-free-png.png",
         "price": 200,
-        "originalPrice": 350
+        "originalPrice": 350,
+        "b1":"https://static.vecteezy.com/system/resources/previews/013/261/982/non_2x/diwali-special-badam-barfi-free-png.png"
     },
     {
         "id": 7,
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTVX97EcXbolQkXxutqrUm8wPZmNGlTl_0j8FuIcZYwMNcddmIt",
+        "image": "https://static.vecteezy.com/system/resources/previews/041/923/284/non_2x/ai-generated-jalebi-isolated-on-transparent-background-free-png.png",
         "title": "Jalebi (100g)",
-        "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwqpcLLWcmGJEHQmLgAOFPYnC53mKCoU_H_WsI6Rfu7b6L12R1",
+        "background":"https://static.vecteezy.com/system/resources/previews/041/923/324/non_2x/ai-generated-jalebi-isolated-on-transparent-background-free-png.png",
         "price": 200,
-        "originalPrice": 350
+        "originalPrice": 350,
+        "b1":"https://static.vecteezy.com/system/resources/previews/036/512/651/non_2x/ai-generated-top-view-of-jalebi-on-transparent-background-png.png"
     },
     {
         "id": 8,
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQeSK__l3zSRKCDPZnzEM0L_65kaJCxi5Qh4PDL-hbTOvOSrCyl  ",
+        "image": "https://static.vecteezy.com/system/resources/previews/013/261/294/non_2x/homemade-motichoor-laddoo-free-png.png",
         "title": "Motichur Laddu (100g)",
         "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwqpcLLWcmGJEHQmLgAOFPYnC53mKCoU_H_WsI6Rfu7b6L12R1",
         "price": 200,
@@ -102,27 +106,29 @@
         "title": "Namoura (100g)",
         "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwqpcLLWcmGJEHQmLgAOFPYnC53mKCoU_H_WsI6Rfu7b6L12R1",
         "price": 200,
-        "originalPrice": 350
+        "originalPrice": 250
         
     }
     ,
     {
         "id": 13,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS59MSLWvMXyOW7jX_RjoNTrXOCIp1BDzlDNwVbwXldMsORrzvq",
-        "title": "Namoura (100g)",
-        "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwqpcLLWcmGJEHQmLgAOFPYnC53mKCoU_H_WsI6Rfu7b6L12R1",
-        "price": 200,
-        "originalPrice": 350
+        "image": "https://static.vecteezy.com/system/resources/previews/027/144/816/non_2x/homemade-beetroot-halwa-with-pistachio-garnish-on-transparent-background-free-png.png",
+        "title": "Beetroot Halwa (100g)",
+        "background":"https://static.vecteezy.com/system/resources/previews/027/144/831/non_2x/homemade-beetroot-halwa-with-pistachio-garnish-on-transparent-background-png.png",
+        "price": 300,
+        "originalPrice": 350,
+        "b1":"https://static.vecteezy.com/system/resources/previews/027/144/957/non_2x/homemade-beetroot-halwa-with-pistachio-garnish-on-transparent-background-png.png"
         
     }
     ,
     {
         "id": 14,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS59MSLWvMXyOW7jX_RjoNTrXOCIp1BDzlDNwVbwXldMsORrzvq",
-        "title": "Namoura (100g)",
-        "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwqpcLLWcmGJEHQmLgAOFPYnC53mKCoU_H_WsI6Rfu7b6L12R1",
-        "price": 200,
-        "originalPrice": 350
+        "image": "https://static.vecteezy.com/system/resources/previews/013/261/288/non_2x/diwali-special-chocolate-burfi-free-png.png",
+        "title": "Chocolate Burfi (100g)",
+        "background":"https://static.vecteezy.com/system/resources/previews/016/585/552/non_2x/chocolate-barfi-or-choco-burfi-cake-a-tweak-to-indian-dessert-or-sweet-for-festivals-free-photo.jpg",
+        "price": 400,
+        "originalPrice": 450,
+        "b1":"https://static.vecteezy.com/system/resources/previews/013/261/989/non_2x/diwali-special-chocolate-burfi-free-png.png"
         
     }
     ,

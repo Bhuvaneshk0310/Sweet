@@ -151,11 +151,11 @@
 .fw-medium {
     font-weight: 500;
 }
-.card-body{
-  margin-top: 3%;
+.ca1{
+  margin-top: 7%;
 }
 .inp input {
-  padding: 10px;
+  padding: 3px;
   border: 1px solid #ccc;
   border-radius: 4px;
   transition: border-color 0.3s ease-in-out;
