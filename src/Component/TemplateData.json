@@ -134,11 +134,12 @@
     ,
     {
         "id": 15,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS59MSLWvMXyOW7jX_RjoNTrXOCIp1BDzlDNwVbwXldMsORrzvq",
-        "title": "Namoura (100g)",
-        "background":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSwqpcLLWcmGJEHQmLgAOFPYnC53mKCoU_H_WsI6Rfu7b6L12R1",
-        "price": 200,
-        "originalPrice": 350
+        "image": "https://static.vecteezy.com/system/resources/previews/013/261/991/non_2x/traditional-indian-mithai-free-png.png",
+        "title": " Indian mithai (100g)",
+        "background":"https://static.vecteezy.com/system/resources/previews/015/933/603/non_2x/besan-peda-pedha-pera-popular-indian-mithai-prepared-using-gram-flour-ghee-sugar-milk-free-photo.jpg",
+        "price": 450,
+        "originalPrice": 550,
+        "b1":"https://static.vecteezy.com/system/resources/previews/015/933/282/non_2x/besan-peda-pedha-pera-popular-indian-mithai-prepared-using-gram-flour-ghee-sugar-milk-free-photo.jpg"
         
     }
     ,
