@@ -63,9 +63,9 @@
 
 .sea1 {
     height: 30px;
-    position: relative;
+    /* position: relative; */
     padding-bottom: 5px;
-    left: -3%;
+   
 }
 
 .title {
