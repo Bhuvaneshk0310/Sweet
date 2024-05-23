@@ -27,9 +27,17 @@ const Cart = () => {
 
   const totalPrice = (price, quantity) => price * quantity;
 
+  const handleCheckout = () => {
+    const cartSummary = cart.map((item, index) => (
+      `Product: ${item.title}\nPrice: ₹${item.price}\nQuantity: ${quantities[index]}\nTotal: ₹${totalPrice(item.price, quantities[index])}\n`
+    )).join('\n');
+
+    alert(`Proceeding to checkout with the following items:\n\n${cartSummary}`);
+  };
+
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-light" id="navbar">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
         <div className="container-fluid">
           <img className="s1" src={image.s} alt="s" />
           <a className="navbar-brand" href="/Home">Sweets</a>
@@ -48,9 +56,9 @@ const Cart = () => {
       </nav>
 
       <div className="container">
-        <div className='card-body '>
+        <div className='card-body'>
           <div className="row">
-            <div className="col-xl-8  ca1">
+            <div className="col-xl-8 ca1">
               {cart.map((item, index) => (
                 <Card key={index} className="border shadow-none mt-4">
                   <Card.Body>
@@ -120,6 +128,22 @@ const Cart = () => {
                   </Card.Body>
                 </Card>
               ))}
+              
+              <div className="row my-4">
+                <div className="col-sm-6">
+                  <Link to="/Searchdetail" className="btn btn-link text-muted">
+                    <i className="mdi mdi-arrow-left me-1"></i> Continue Shopping
+                  </Link>
+                </div> 
+                <div className="col-sm-6">
+                  <div className="text-sm-end mt-2 mt-sm-0">
+                    <button onClick={handleCheckout} className="btn btn-success">
+                      <i className="mdi mdi-cart-outline me-1"></i> Checkout
+                    </button>
+                  </div>
+                </div>
+              </div>
+              
             </div>
           </div>
         </div>
@@ -129,4 +153,3 @@ const Cart = () => {
 }
 
 export default Cart;
-
