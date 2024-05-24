@@ -32,7 +32,7 @@ const Cart = () => {
       `Product: ${item.title}\nPrice: ₹${item.price}\nQuantity: ${quantities[index]}\nTotal: ₹${totalPrice(item.price, quantities[index])}\n`
     )).join('\n');
 
-    alert(`Proceeding to checkout with the following items:\n\n${cartSummary}`);
+    alert(`Your Checkout Items:\n\n${cartSummary} Thank you for your purchase`);
   };
 
   return (
@@ -131,7 +131,7 @@ const Cart = () => {
               
               <div className="row my-4">
                 <div className="col-sm-6">
-                  <Link to="/Searchdetail" className="btn btn-link text-muted">
+                  <Link to="/Searchs" className="btn btn-link text-muted">
                     <i className="mdi mdi-arrow-left me-1"></i> Continue Shopping
                   </Link>
                 </div> 
