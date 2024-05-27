@@ -66,7 +66,7 @@ const Searchdetail = () => {
                                         <h2 className="name">
                                             {searchItem.title}
                                             <small>Product by <a href="#">Sweet Stores</a></small>
-                                            <p><StarRating totalStars={5} /></p>
+                                            <StarRating totalStars={5} />
                                             <a className="fs-5 px-3">(109) Votes <a href="#">109 customer reviews</a></a>
                                         </h2>
                                         <hr />

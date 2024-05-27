@@ -24,7 +24,7 @@
         "image": "https://static.vecteezy.com/system/resources/previews/039/111/419/non_2x/ai-generated-gulab-jamun-isolated-on-background-free-png.png",
         "title": "Gulab Jamun (100g)",
         "background":"https://ik.imagekit.io/dunzo/1615702047276_product_5f3a511aaea11a25f48b4ae2_1.jpg?tr=w-436,h-436,cm-pad_resize",
-        "price": 200,
+        "price": 300.74,
         "originalPrice": 350,
         "b1":"https://png.pngtree.com/png-clipart/20230831/ourmid/pngtree-indian-sweet-gulab-jamun-closeup-view-png-image_9982030.png"
     },
@@ -33,7 +33,7 @@
         "image": "https://images-cdn.ubuy.co.in/634e9ad92ba4f576c53b9a1d-pistachio-baklava-mabrumeh-baklawa-25.jpg",
         "title": "Mabrumeh (100g)",
         "background":"https://abbasoglutatli.net/wp-content/uploads/2022/03/%D9%85%D8%A8%D8%B1%D9%88%D9%85%D8%A9-%D9%81%D8%B3%D8%AA%D9%82-%D9%82%D8%B7%D8%B9.jpg",
-        "price": 200,
+        "price": 250.78,
         "originalPrice": 350,
         "b1":"https://charismagoods.com/cdn/shop/products/EAS05437_1024x1024.png?v=1678353723"
     },
@@ -51,16 +51,16 @@
         "image": "https://static.vecteezy.com/system/resources/previews/013/261/984/non_2x/healthy-almond-burfi-free-png.png",
         "title": "Almond Burfi  (100g)",
         "background":"https://static.vecteezy.com/system/resources/previews/013/261/292/non_2x/yellow-badam-burfi-free-png.png",
-        "price": 200,
-        "originalPrice": 350,
+        "price": 400.54,
+        "originalPrice": 550,
         "b1":"https://static.vecteezy.com/system/resources/previews/013/261/982/non_2x/diwali-special-badam-barfi-free-png.png"
     },
     {
         "id": 7,
         "image": "https://static.vecteezy.com/system/resources/previews/041/923/284/non_2x/ai-generated-jalebi-isolated-on-transparent-background-free-png.png",
-        "title": "Jalebi (100g)",
+        "title": "Jalebi (200g)",
         "background":"https://static.vecteezy.com/system/resources/previews/041/923/324/non_2x/ai-generated-jalebi-isolated-on-transparent-background-free-png.png",
-        "price": 200,
+        "price": 600.44,
         "originalPrice": 350,
         "b1":"https://static.vecteezy.com/system/resources/previews/036/290/262/original/ai-generated-jalebi-on-plate-with-transparent-background-ai-png.png"
     },
@@ -69,7 +69,7 @@
         "image": "https://t4.ftcdn.net/jpg/02/02/57/55/360_F_202575575_Y3ENCjggnjBcqQMtDhCtiQrCgahVAn2Z.jpg",
         "title": "Motichur Laddu (100g)",
         "background":"https://static.vecteezy.com/system/resources/previews/013/261/294/non_2x/homemade-motichoor-laddoo-free-png.png",
-        "price": 200,
+        "price": 200.54,
         "originalPrice": 350,
         "b1":"https://freepngimg.com/convert-png/17331-sweets-free-download-png"
     },
@@ -78,7 +78,7 @@
         "image": "https://img.freepik.com/premium-photo/balushahi-badushah-mughlai-dish-is-traditional-indian-soft-flaky-dessert-sweet-food-also-popular-pakistan-bangladesh_466689-78.jpg",
         "title": "Balushahi (100g)",
         "background":"https://img.freepik.com/premium-photo/balushahi-badushah-mughlai-dish-is-traditional-indian-soft-flaky-dessert-sweet-food-also-popular-pakistan-bangladesh_466689-115.jpg",
-        "price": 200,
+        "price": 300.54,
         "originalPrice": 350,
         "b1":"https://img.freepik.com/premium-photo/balushahi-badushah-mughlai-dish-is-traditional-indian-soft-flaky-dessert-sweet-food-also-popular-pakistan-bangladesh_466689-84.jpg"
 
@@ -89,7 +89,7 @@
         "image": "https://www.godavarivantillu.com/cdn/shop/products/tapeswaram-madatha-kaja-272_1024x1024.jpg?v=1637866881",
         "title": "Madatha Kaja  (100g)",
         "background":"https://www.orderyourchoice.com/119536-large_default/madatha-kaja.jpg",
-        "price": 200,
+        "price": 300.45,
         "originalPrice": 350,
         "b1":"https://b.zmtcdn.com/data/dish_photos/a3d/51bb02d579189d7745eaf1806b45da3d.jpg"
         
@@ -100,7 +100,7 @@
         "image": "https://nativesweetsandsnacks.com/wp-content/uploads/2020/04/RAVA-LADDU-600x600.jpg",
         "title": "Rava Laddu (100g)",
         "background":"https://eangadi.in/image/cache/catalog/Seller_14/eangadi-Laddu-rava-laddu-350x350.jpg",
-        "price": 200,
+        "price": 199.99,
         "originalPrice": 350,
         "b1":"https://www.orderyourchoice.com/124529-large_default/rava-laddu.jpg"
         
@@ -111,7 +111,7 @@
         "image": "https://www.pngitem.com/pimgs/m/132-1327655_sweets-free-pictures-sweets-png-transparent-png.png",
         "title": "Namoura (100g)",
         "background":"https://sabirgazetesicom.teimg.com/sabirgazetesi-com/images/haberler/2023/09/sam-tatlisi-tarifi-1695248962.webp",
-        "price": 200,
+        "price": 220.45,
         "originalPrice": 250,
         "b1":"https://img.freepik.com/premium-photo/turkish-dessert-sambali-damascus-dessert-sam-tatlisi_693630-15302.jpg?w=360"
         
@@ -122,7 +122,7 @@
         "image": "https://static.vecteezy.com/system/resources/previews/027/144/816/non_2x/homemade-beetroot-halwa-with-pistachio-garnish-on-transparent-background-free-png.png",
         "title": "Beetroot Halwa (100g)",
         "background":"https://static.vecteezy.com/system/resources/previews/027/144/831/non_2x/homemade-beetroot-halwa-with-pistachio-garnish-on-transparent-background-png.png",
-        "price": 300,
+        "price": 300.16,
         "originalPrice": 350,
         "b1":"https://static.vecteezy.com/system/resources/previews/027/144/957/non_2x/homemade-beetroot-halwa-with-pistachio-garnish-on-transparent-background-png.png"
         
@@ -133,7 +133,7 @@
         "image": "https://static.vecteezy.com/system/resources/previews/013/261/288/non_2x/diwali-special-chocolate-burfi-free-png.png",
         "title": "Chocolate Burfi (100g)",
         "background":"https://static.vecteezy.com/system/resources/previews/016/585/552/non_2x/chocolate-barfi-or-choco-burfi-cake-a-tweak-to-indian-dessert-or-sweet-for-festivals-free-photo.jpg",
-        "price": 400,
+        "price": 400.47,
         "originalPrice": 450,
         "b1":"https://static.vecteezy.com/system/resources/previews/013/261/989/non_2x/diwali-special-chocolate-burfi-free-png.png"
         
@@ -144,7 +144,7 @@
         "image": "https://static.vecteezy.com/system/resources/previews/013/261/991/non_2x/traditional-indian-mithai-free-png.png",
         "title": " Indian mithai (100g)",
         "background":"https://static.vecteezy.com/system/resources/previews/015/933/603/non_2x/besan-peda-pedha-pera-popular-indian-mithai-prepared-using-gram-flour-ghee-sugar-milk-free-photo.jpg",
-        "price": 450,
+        "price": 450.14,
         "originalPrice": 550,
         "b1":"https://static.vecteezy.com/system/resources/previews/015/933/282/non_2x/besan-peda-pedha-pera-popular-indian-mithai-prepared-using-gram-flour-ghee-sugar-milk-free-photo.jpg"
         
@@ -155,7 +155,7 @@
         "image": "https://static.vecteezy.com/system/resources/previews/013/261/317/non_2x/kaju-pista-roll-free-png.png",
         "title": "Kaju Roll mithai (100g)",
         "background":"https://static.vecteezy.com/system/resources/previews/016/283/591/non_2x/kaju-roll-mithai-a-royal-traditional-sweet-made-from-cashew-powder-and-mawa-with-sugar-free-photo.jpg",
-        "price": 200,
+        "price": 300.44,
         "originalPrice": 350,
         "b1":"https://static.vecteezy.com/system/resources/previews/016/286/998/non_2x/kaju-roll-mithai-a-royal-traditional-sweet-made-from-cashew-powder-and-mawa-with-sugar-free-photo.jpg"
         

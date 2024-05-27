@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import './Header.css';
 import { Link } from 'react-router-dom';
 import * as image from "../Component/ImagesFolder/Image"
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { CartContext } from './CartContext';
 
 
 const Header = () => {
+  const { cart } = useContext(CartContext);
+  const cartCount = cart.reduce((total, item) => total + item.quantity, 0);
   return (
     <div>
        
@@ -26,19 +28,19 @@ const Header = () => {
                 <Link to="/Home">
 
 
-                  <a class="nav-link active" aria-current="page" href="#"><img src={image.home} alt="" class="d-inline-block align-text-top nav1" /><span className="y1">Home </span></a>
+                  <a class="nav-link active" aria-current="page" href="#"><span className="y1">Home </span></a>
 
                 </Link> </li>
               <li class="nav-item">
                 <Link to="/Menu">
 
-                  <a class="nav-link active" aria-current="page" href="#"><img src={image.menu} alt="" class="d-inline-block align-text-top nav1" /><span className="y1">Menu </span></a>
+                  <a class="nav-link active" aria-current="page" href="#"><span className="y1">Menu </span></a>
 
                 </Link> </li>
               <li class="nav-item">
                 <Link to="/Contact">
 
-                  <a class="nav-link active" aria-current="page" href="#"><img src={image.contact} alt=" " class="d-inline-block align-text-top nav1" /><span className="y1">Contact </span></a>
+                  <a class="nav-link active" aria-current="page" href="#"><span className="y1">Contact </span></a>
 
                 </Link> </li>
               <li class="nav-item">
@@ -52,7 +54,7 @@ const Header = () => {
                   <div class="shopping">
 
                     <img src={image.cart} />
-                    <span class="quantity">0</span>
+                    <span className="badge bg-primary">{cartCount}</span>
                     <a className="shop1">Cart</a>
                   </div>
 

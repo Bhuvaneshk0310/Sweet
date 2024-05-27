@@ -55,14 +55,15 @@ function Searchs() {
     <div>
       <div className="container p-5 my-5 ">
         <div className="searchInput_Container">
-          <input
-           className="searchInput control"
-                       type="text"
+        <input
+            id="searchInput"
+            type="text"
             placeholder="Search something Sweet..."
             value={searchTerm}
-            onChange={handleSearch}
-          />
-          <img className="sea1" src={image.searchs} alt="search" />
+            onChange={handleSearch}/>
+            <img className="sea1" src={image.searchs} alt="search" />
+          
+        
         </div>
         <div className="container-fluid ">
           {filteredData.map((val) => (
@@ -75,8 +76,8 @@ function Searchs() {
                 <Link to={`/Searchdetail/${val.id}`}>
                   <img className="sweetimg" src={val.image} alt={val.title} />
                   <div className="tp2">
-                    <p className="title-no-shadow">{val.title}</p>
-                    <p className="price box-no-shadow">₹{val.price}</p>
+                    <p className=" title1">{val.title}</p>
+                    <p className=" price1">₹{val.price}</p>
                   </div>
                 </Link>
               </div>

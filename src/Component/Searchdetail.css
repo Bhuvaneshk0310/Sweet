@@ -33,7 +33,9 @@
 
 .product-deatil .name a {
 
-    margin-left: 0
+    margin-left: 8px;
+    text-decoration-line: underline;
+    text-decoration-color: white;
 }
 
 .product-deatil .price-container {

@@ -1,11 +1,8 @@
-
-
- 
 .container>.searchInput_Container {
     position: fixed;
     width: 100%;
     left: 0;
-    top: 60px;
+    top: 75px;
     z-index: 2;
     background-color: #fff;
     padding-bottom: 10px;
@@ -16,21 +13,30 @@
     margin: 0 auto;
 }
 
-.container>.searchInput_Container input {
+
+
+
+.searchInput_Container {
+    display: flex;
     width: 50%;
     padding: 10px;
     outline: none;
-
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
-.searchInput:focus {
-    border-radius: 15px;
-    border-color:rgb(118, 27, 238);
-} 
+#searchInput {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #b45cff;
+    border-radius: 0.25rem;
+}
 
-.searchInput {
-    border-radius: 15px;
-    border-color:rgb(208, 174, 252);
+#searchInput:focus {
+    border-color: #d080ff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(205, 140, 245, 0.25);
 }
 
 .container .container-fluid {
@@ -56,22 +62,25 @@
 }
 
 .container .container-fluid .template img {
-    height: 160px;
+    height: 175px;
     width: 210px;
     margin-top: 1px;
 }
 
 .sea1 {
     height: 30px;
-    /* position: relative; */
+    margin-left: -35px;
     padding-bottom: 5px;
-   
+
 }
 
-.title {
+.title1,.price1 {
+    margin-top: 1%;
+    margin-bottom: 1%;
     font-size: 20px;
-    text-decoration-line: none;
-    color: black;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    color: rgb(158, 17, 219);
 
 }
 
@@ -80,9 +89,9 @@
 }
 
 .star {
-   
-    color:rgb(135 13 253);
 
+    color: rgb(135 13 253);
+margin-bottom: 2%;
 }
 
 
@@ -93,4 +102,3 @@
     border: solid 1px #f6f6f6;
     background-color: #fff;
 }
-
