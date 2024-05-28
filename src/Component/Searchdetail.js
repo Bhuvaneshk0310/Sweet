@@ -70,10 +70,10 @@ const Searchdetail = () => {
                                             <a className="fs-5 px-3">(109) Votes <a href="#">109 customer reviews</a></a>
                                         </h2>
                                         <hr />
-                                        <h3 className="price-container">
-                                            ₹{searchItem.price}
+                                        <h2 className="price-container">
+                                            ₹({searchItem.price})
                                             <small>*includes tax</small>
-                                        </h3>
+                                        </h2>
                                         <div className="certified">
                                             <ul>
                                                 <li>

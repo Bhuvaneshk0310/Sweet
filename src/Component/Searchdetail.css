@@ -39,13 +39,13 @@
 
 .product-deatil .price-container {
 
-    font-size: 24px;
+    font-size: 33px;
 
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .product-deatil .price-container small {
-    font-size: 12px;
+    font-size: 18px;
 }
 
 .product-deatil .fa-2x {
