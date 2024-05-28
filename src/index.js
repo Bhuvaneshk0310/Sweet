@@ -12,7 +12,6 @@ import { CartProvider } from './Component/CartContext'; // Import CartProvider
 import Header from './Component/Header';
 import Home from './Component/Home';
 import Error from './Component/Error';
-import Carts from './Component/Carts';
 import Contact from './Component/Contact';
 import Searchs from './Component/Searchs';
 import Signin from './Component/Signin';
@@ -20,6 +19,7 @@ import Help from './Component/Help';
 import Searchdetail from './Component/Searchdetail';
 import Footer from './Component/Footer';
 import Menu from './Component/Menu';
+import Cart from './Component/Cart';
 
 const router = createBrowserRouter([
   {
@@ -36,7 +36,7 @@ const router = createBrowserRouter([
     ],
   },
   { path: "/Contact", element: <Contact /> },
-  { path: "/Carts", element: <Carts /> },
+  { path: "/Cart", element: <Cart/> },
   { path: "/Signin", element: <Signin /> },
   { path: "/Help", element: <Help /> },
 ]);

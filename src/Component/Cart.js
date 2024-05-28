@@ -9,7 +9,7 @@ import { Card } from 'react-bootstrap';
 import { CartContext } from './CartContext';
 import StarRating from './StarRating';
 
-const Carts = () => {
+const Cart = () => {
   const { cart, updateCartItemQuantity, removeCartItem } = useContext(CartContext);
   const [quantities, setQuantities] = useState(cart.map(() => 1));
 
@@ -152,4 +152,4 @@ const Carts = () => {
   );
 }
 
-export default Carts;
+export default Cart;
