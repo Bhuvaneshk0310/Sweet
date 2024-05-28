@@ -23,7 +23,7 @@ const Header = () => {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav nav-item1  mb-2 mb-lg-0">
               <li class="nav-item">
                 <Link to="/Home">
 
@@ -48,7 +48,10 @@ const Header = () => {
                   <a class="nav-link active" aria-current="page" href="#"> <span className="y1">Search </span></a>
 
                 </Link> </li>
-                <div id="cs1">
+                
+
+            </ul>
+            <div id="cs1">
                 <Link to="/Cart">
 
                   <div class="shopping">
@@ -60,8 +63,6 @@ const Header = () => {
 
                 </Link>
               </div>
-
-            </ul>
 
           </div>
         </div>

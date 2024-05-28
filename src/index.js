@@ -12,7 +12,7 @@ import { CartProvider } from './Component/CartContext'; // Import CartProvider
 import Header from './Component/Header';
 import Home from './Component/Home';
 import Error from './Component/Error';
-import Cart from './Component/Cart';
+import Carts from './Component/Carts';
 import Contact from './Component/Contact';
 import Searchs from './Component/Searchs';
 import Signin from './Component/Signin';
@@ -36,7 +36,7 @@ const router = createBrowserRouter([
     ],
   },
   { path: "/Contact", element: <Contact /> },
-  { path: "/Cart", element: <Cart /> },
+  { path: "/Carts", element: <Carts /> },
   { path: "/Signin", element: <Signin /> },
   { path: "/Help", element: <Help /> },
 ]);

@@ -59,6 +59,9 @@
   
   
   }
+  .cardtitle{
+    text-decoration: white;
+  }
   
   #navbarSupportedContent a:hover {
     color:rgb(118, 27, 238) ;
@@ -186,5 +189,5 @@
 }
 
 .flex-shrink-0 ul li a i {
-  font-size: 16px;
+  font-size: 21px;
 }

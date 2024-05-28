@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Cart.css';
-import * as image from "../Component/ImagesFolder/Image";
+import * as image from "./ImagesFolder/Image";
 import '@mdi/font/css/materialdesignicons.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; 
@@ -9,7 +9,7 @@ import { Card } from 'react-bootstrap';
 import { CartContext } from './CartContext';
 import StarRating from './StarRating';
 
-const Cart = () => {
+const Carts = () => {
   const { cart, updateCartItemQuantity, removeCartItem } = useContext(CartContext);
   const [quantities, setQuantities] = useState(cart.map(() => 1));
 
@@ -68,11 +68,11 @@ const Cart = () => {
                       </div>
                       <div className="flex-grow-1 align-self-center overflow-hidden">
                         <div>
-                          <h5 className="text-truncate font-size-18">
-                            <a href="#" className="text-dark fw-bold">{item.title}</a>
-                          </h5>
+                          <h4 className="text-truncate font-size-18 ">
+                            <a href="#" className="text-dark fw-bold cardtitle">{item.title}</a>
+                          </h4>
                         
-                          <p><StarRating totalStars={5} rating={item.rating} /></p>
+                        <h4><StarRating totalStars={5} rating={item.rating} /></h4>
                         </div>
                       </div>
                       <div className="flex-shrink-0 ms-2">
@@ -152,4 +152,4 @@ const Cart = () => {
   );
 }
 
-export default Cart;
+export default Carts;

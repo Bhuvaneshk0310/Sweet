@@ -21,7 +21,6 @@
 
 .product-deatil .name {
     margin-top: 30px;
-    margin-right: 140px;
     text-align: center;
 
 }
@@ -39,7 +38,7 @@
 }
 
 .product-deatil .price-container {
-    margin-right: 310px;
+
     font-size: 24px;
 
     font-weight: 300;
@@ -71,7 +70,7 @@
 
 .product-deatil .certified {
     margin-top: 10px;
-    margin-right: 190px;
+
 
 }
 

@@ -122,15 +122,19 @@
   width: 5rem;
   border-radius: 15px;
 }
-
+.nav-item1{
+  margin-left: 250px;
+}
 .y1 {
 
   text-align: center;
- font-size: 17px;
-  line-height: 52px;
-  text-decoration: none;
+ font-size: 20px;
+    text-decoration: white;
   margin-right: 10px;
   padding-bottom: 20px;
+}
+.y1:hover{
+  text-decoration: underline;
 }
 
 .shopping {
@@ -143,7 +147,7 @@
 }
 
 .shopping img {
-  margin-top: 8px;
+  
   height: 30px;
   
 }
@@ -157,19 +161,22 @@
   color: rgb(255, 255, 255);
   font-size: 17px;
   position: absolute;
-  top: 10px;
-  left: 34%;
+  top: 4px;
+  left: 37%;
   padding: 3px 10px;
 }
 
 .shop1 {
+ 
   margin-top: 16px;
   margin-left: 25%;
+  font-size: 20px; 
 
 }
 
 
 #cs1 {
+  margin-left:350px;
   width: 83px;
 
 
@@ -181,10 +188,10 @@
   justify-content: center;
   align-items: center;
   color: rgb(72, 72, 72);
-  font-size: 17px;
+  font-size: 20px;
   position: absolute;
-  top: -6px;
-  left: 35%;
+  top: -19px;
+  left: 37%;
   padding: 3px 10px;
 }
 .s1{
