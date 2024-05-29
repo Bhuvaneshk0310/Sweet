@@ -21,7 +21,7 @@ const Searchdetail = () => {
         addToCart(searchItem);
 
     };
-
+   
     return (
         <div>
              <div className="container">
@@ -109,58 +109,3 @@ const Searchdetail = () => {
 }
 
 export default Searchdetail;
-
-// import React, { useState, useEffect } from "react";
-// import { Link, useParams } from "react-router-dom";
-// import data from "./TemplateData.json"; // Import data from JSON file
-
-// function Searchs() {
-//   const [searchTerm, setSearchTerm] = useState("");
-//   const [filteredData, setFilteredData] = useState([]);
-//   const { id } = useParams(); // Access the id parameter from the URL
-
-//   useEffect(() => {
-//     // Set initial filtered data to all data
-//     setFilteredData(data);
-//   }, []);
-
-//   const handleSearch = (event) => {
-//     const searchTerm = event.target.value.toLowerCase();
-//     // Filter data based on search term
-//     const filtered = data.filter((val) =>
-//       val.title.toLowerCase().includes(searchTerm)
-//     );
-//     // Update filtered data state
-//     setFilteredData(filtered);
-//   };
-
-//   return (
-//     <>
-//       <div className="templateContainer">
-//         <div className="searchInput_Container">
-//           <input
-//             id="searchInput"
-//             type="text"
-//             placeholder="Search something Sweet..."
-//             value={searchTerm}
-//             onChange={handleSearch}
-//           />
-//         </div>
-//         <div className="template_Container">
-//           {/* Map over filtered data to display search results */}
-//           {filteredData.map((val) => (
-//             <div className="template" key={val.id}>
-//               <Link to={`/Searchdetail/${val.id}`}>
-//                 <img className="sweetimg" src={val.image} alt={val.title} />
-//                 <h3>{val.title}</h3>
-//                 <p className="price">₹{val.price}</p>
-//               </Link>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     </>
-//   );
-// }
-
-// export default Searchs;

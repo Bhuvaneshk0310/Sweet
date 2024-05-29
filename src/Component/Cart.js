@@ -50,6 +50,9 @@ const Cart = () => {
               <li className="nav-item">
                 <Link to="/Signin" className="nav-link h1">Sign In</Link>
               </li>
+              <li className="nav-item">
+                <Link to="/Login" className="nav-link h1">Login</Link>
+              </li>
             </ul>
           </div>
         </div>

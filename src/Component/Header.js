@@ -8,6 +8,7 @@ import { CartContext } from './CartContext';
 
 const Header = () => {
   const { cart } = useContext(CartContext);
+
   const cartCount = cart.reduce((total, item) => total + item.quantity, 0);
   return (
     <div>
@@ -57,7 +58,7 @@ const Header = () => {
                   <div class="shopping">
 
                     <img src={image.cart} />
-                    <span className="badge bg-primary">{cartCount}</span>
+                    <span className=" count">{cartCount}</span>
                     <a className="shop1">Cart</a>
                   </div>
 
