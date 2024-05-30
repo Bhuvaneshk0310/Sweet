@@ -89,10 +89,10 @@ const Searchdetail = () => {
                                             <div className="col-sm-12 col-md-5 col-lg-5">
                                                 <button onClick={handleAddToCart} className="btn btn-success btn-lg mb-3">Add to cart</button>
                                             </div>
-                                            <div className="col-sm-12 col-md-6 col-lg-6">
+                                            <div className="col-sm-12 col-md-7 col-lg-7">
                                                 <div className="btn-group pull-right">
-                                                    <button className="btn btn-white btn-default"><i className="fa fa-star"></i> Add to wishlist</button>
-                                                    <button className="btn btn-white btn-default"><i className="fa fa-envelope" href="/Contact"></i> Contact Seller</button>
+                                                    <button className="btn btn-white btn-default"><i className="fa fa-star"> Add to wishlist</i></button>
+                                                    <button className="btn btn-white btn-default"><i className="fa fa-envelope" href="/Contact">Contact Seller</i> </button>
                                                 </div>
                                             </div>
                                         </div>

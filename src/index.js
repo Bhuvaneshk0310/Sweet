@@ -22,7 +22,7 @@ import Footer from './Component/Footer';
 import Menu from './Component/Menu';
 import Cart from './Component/Cart';
 import Login from './Component/Login';
-
+import DataFetchingComponent from './Component/DataFetchingComponent';
 
 
 
@@ -34,12 +34,13 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <Error />,
     children: [
-      { path: "/Header", element: <Header /> },
+      { path: "/DataFetchingComponent", element: <DataFetchingComponent /> },
       { path: "/Home", element: <Home /> },
       { path: "/Menu", element: <Menu /> },
       { path: "/Searchs", element: <Searchs /> },
       { path: "/Searchdetail/:id", element: <Searchdetail /> },
-      { path: "/Footer", element: <Footer /> }
+      { path: "/Footer", element: <Footer /> },
+     
     ],
   },
   { path: "/Contact", element: <Contact /> },
@@ -47,6 +48,7 @@ const router = createBrowserRouter([
   { path: "/Signin", element: <Signin /> },
   { path: "/Help", element: <Help /> },
   { path: "/Login", element:<Login/>},
+  { path: "/Header", element: <Header /> }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

@@ -1,9 +1,4 @@
-.container {
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-  }
-  
+
   .card {
     padding: 2rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -22,4 +17,4 @@
     background-color: #a00be0;
     border-color: #a00be0;
   }
-  
+ 
