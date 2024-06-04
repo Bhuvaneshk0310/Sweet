@@ -12,64 +12,49 @@ const Header = () => {
   const cartCount = cart.reduce((total, item) => total + item.quantity, 0);
   return (
     <div>
-       
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
-        <div class="container-fluid">
-
-          <a class="navbar-brand" href="#">
-            <img src={image.s} alt="" width="30" height="24" class="d-inline-block align-text-top s1" />
-            <span class="navbar-brand" href="/Contact">Sweets</span>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+      <nav class="navbar navbar-dark navbar-expand-md fixed-top">
+        <div class="container">
+        <span><img src={image.s} alt="" width="30" height="24" class="d-inline-block align-text-top s1" /></span>
+          <a class="navbar-brand" href="/Home">Sweets</a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#navbarNav">
+            <span class="navbar-toggler-icon "></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav nav-item1  mb-2 mb-lg-0">
-              <li class="nav-item">
-                <Link to="/Home">
-
-
-                  <a class="nav-link active" aria-current="page" href="#"><span className="y1">Home </span></a>
-
-                </Link> </li>
-              <li class="nav-item">
-                <Link to="/Menu">
-
-                  <a class="nav-link active" aria-current="page" href="#"><span className="y1">Menu </span></a>
-
-                </Link> </li>
-              <li class="nav-item">
-                <Link to="/Contact">
-
-                  <a class="nav-link active" aria-current="page" href="#"><span className="y1">Contact </span></a>
-
-                </Link> </li>
-              <li class="nav-item">
-                <Link to="/Searchs">
-                  <a class="nav-link active" aria-current="page" href="#"> <span className="y1">Search </span></a>
-
-                </Link> </li>
-                
-
-            </ul>
-            <div id="cs1">
-                <Link to="/Cart">
-
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <Link to="/Home">
+                <li class="nav-item">
+                  <a class="nav-link y1" >Home</a>
+                </li></Link>
+              <Link to="/Menu">
+                <li class="nav-item">
+                  <a class="nav-link y1" >Menu</a>
+                </li></Link>
+              <Link to="/Contact">
+                <li class="nav-item">
+                  <a class="nav-link y1" >Contact </a>
+                </li></Link>
+              <Link to="/Searchs">
+                <li class="nav-item">
+                  <a class="nav-link y1" >Search</a>
+                </li>
+              </Link>
+              <Link to="/Cart">
+                <li class="nav-item">
                   <div class="shopping">
-
                     <img src={image.cart} />
                     <span className=" count">{cartCount}</span>
-                    <a className="shop1">Cart</a>
+                    <a class="nav-link shop1" >Cart</a>
                   </div>
-
-                </Link>
-              </div>
-
+                </li>
+              </Link>
+                      </ul>
           </div>
         </div>
       </nav>
- 
 
+   
+ 
 
     </div>
   )

@@ -1,4 +1,47 @@
-#navbar {
+
+/* nav */
+nav {
+  min-height: 3.5rem;
+}
+nav.fixed-top {
+  padding: 0.5rem;
+}
+nav.bg-primary li a {
+  color: #fff !important;
+}
+nav li a.active {
+  padding: .2rem .4rem;
+  color: #0275d8 !important;
+  background-color: #fff;
+  border-radius: .2rem;
+  margin: .3rem 0.6rem;
+}
+nav .navbar-collapse.collapsing ul,
+nav .navbar-collapse.show ul {
+  margin-top: 3rem;
+}
+nav .navbar-collapse.collapsing li a,
+nav .navbar-collapse.show li a  {
+  padding: 0.5rem;
+}
+
+nav .navbar-collapse.show li a.active  {
+  margin: 0;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+.navbar {
+  
+  box-shadow: 5px 5px 10px rgb(118, 27, 238);
+  background: #ffffff;
+   }
+
+
+
+
+/* #navbar {
   position: fixed;
   top: 0;
   left: 0;
@@ -124,7 +167,7 @@
 }
 .nav-item1{
   margin-left: 250px;
-}
+} */
 .y1 {
 
   text-align: center;
