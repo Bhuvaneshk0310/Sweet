@@ -39,7 +39,7 @@
   box-shadow: 0 0 0 0.2rem rgba(205, 140, 245, 0.25);
 }
 
-.container .container-fluid {
+.container .t {
 
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -61,7 +61,7 @@
     padding: 0px 15px;
 }
 
-.container .container-fluid .template img {
+.container  .template img {
     height: 175px;
     width: 210px;
     margin-top: 1px;

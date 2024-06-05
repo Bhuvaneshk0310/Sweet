@@ -38,6 +38,23 @@ nav .navbar-collapse.show li a.active  {
   background: #ffffff;
    }
 
+/* Header.css */
+
+/* Change color of the navbar-toggler icon */
+.navbar-toggler.custom-toggler {
+  border-color: rgba(255, 255, 255, 0.5); /* Change the border color */
+}
+
+.navbar-toggler.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  /* The above URL encodes a white SVG icon. Modify 'rgba(255, 255, 255, 0.5)' to change the color */
+}
+
+/* Change color of the toggler icon when hovered */
+.navbar-toggler.custom-toggler:hover .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  /* Modify the color as needed */
+}
 
 
 
