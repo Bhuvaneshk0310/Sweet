@@ -1,6 +1,50 @@
+/* Header.css */
+
+.navbar {
+  background-color: #343a40; /* Dark background for the navbar */
+}
+
+.s1 {
+  margin-right: 10px;
+}
+
+.nav-link.y1 {
+  color: #fff;
+  margin-right: 10px;
+  transition: color 0.3s;
+}
+
+.nav-link.y1:hover {
+  color: #f8f9fa;
+}
+
+.shopping {
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.count {
+  margin-left: 5px;
+  font-size: 0.9em;
+}
+
+.shop1 {
+  color: #fff;
+  margin-left: 5px;
+  transition: color 0.3s;
+}
+
+.shop1:hover {
+  color: #f8f9fa;
+}
 
 /* nav */
-nav {
+/* nav {
   min-height: 3.5rem;
 }
 nav.fixed-top {
@@ -55,7 +99,7 @@ nav .navbar-collapse.show li a.active  {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   /* Modify the color as needed */
 }
-
+ */
 
 
 /* #navbar {
@@ -222,12 +266,12 @@ nav .navbar-collapse.show li a.active  {
   font-size: 17px;
   position: absolute;
   top: 4px;
-  left: 37%;
+  left: 75%;
   padding: 0px 9px;
 }
 
 .shop1 {
- 
+  color: rgb(255, 255, 255);
   margin-top: 16px;
   margin-left: 25%;
   font-size: 20px; 
@@ -247,12 +291,13 @@ nav .navbar-collapse.show li a.active  {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(72, 72, 72);
-  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
   position: absolute;
-  top: -19px;
-  left: 37%;
+  top: -20px;
+  left: 146%;
   padding: 3px 10px;
+  text-decoration: none;
 }
 .s1{
   height: 50px;
@@ -260,7 +305,7 @@ nav .navbar-collapse.show li a.active  {
  margin-right: 8px;
 }
 
-
+/* Home css */
 section{
   width: auto;
 height: auto;

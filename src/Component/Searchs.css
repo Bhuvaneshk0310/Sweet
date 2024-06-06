@@ -1,13 +1,113 @@
+/* Searchs.css */
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .searchInput_Container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #searchInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .sea1 {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  }
+  
+  .template {
+    position: relative;
+    background: #fff;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .template:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .heart {
+    position: absolute;
+    top: 10px;
+   left: 15px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .sweeimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 210px;
+    margin-top: 10px;
+  }
+  
+  .tp2 {
+    padding: 10px;
+  }
+  
+  .title1 {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .price1 {
+    color: #888;
+    margin: 0;
+  }
+  
+
+/* @media (max-width: 576px) {
+    .template {
+        margin: 0.5rem 0;
+        padding: 1rem;
+    }
+
+    .tp2 {
+        text-align: center;
+    }
+
+    .searchInput_Container {
+        display: flex;
+        align-items: center;
+    }
+
+    .searchInput_Container img {
+        width: 1.5rem;
+        margin-right: 0.5rem;
+    }
+}
+
+.heart {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin-right: 200px;
+    background-color: #fff;
+
+}
+
+
 .container>.searchInput_Container {
     position: fixed;
     width: 100%;
     left: 0;
-    top: 75px;
+    top: 73px;
     z-index: 2;
     background-color: #fff;
     padding-bottom: 10px;
     padding-top: 35px;
-    /* display: flex; */
+   
     align-items: center;
     justify-content: center;
     margin: 0 auto;
@@ -35,8 +135,8 @@
 
 #searchInput:focus {
     border-color: #d080ff;
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(205, 140, 245, 0.25);
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(205, 140, 245, 0.25);
 }
 
 .container .t {
@@ -49,23 +149,20 @@
     margin: 0 auto;
 }
 
-.container .container-fluid .template {
+.template {
     background-color: white;
     border-radius: 20px;
-
+    width: 245px;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-    width: 15rem;
-    height: 19rem;
-    margin-top: 20px;
-    margin: 20px;
-    padding: 0px 15px;
+    justify-content: center;
+    
 }
 
-.container  .template img {
+.container .template img {
     height: 175px;
     width: 210px;
     margin-top: 1px;
-}
+} */
 
 .sea1 {
     height: 30px;
@@ -74,7 +171,8 @@
 
 }
 
-.title1,.price1 {
+.title1,
+.price1 {
     margin-top: 1%;
     margin-bottom: 1%;
     font-size: 20px;
@@ -91,14 +189,5 @@
 .star {
 
     color: rgb(135 13 253);
-margin-bottom: 2%;
-}
-
-
-.heart {
-    margin-top: 20px;
-    margin-right: 200px;
-    border-radius: 15px;
-    border: solid 1px #f6f6f6;
-    background-color: #fff;
+    margin-bottom: 2%;
 }
