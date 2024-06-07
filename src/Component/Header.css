@@ -1,21 +1,33 @@
 /* Header.css */
 
 .navbar {
-  background-color: #343a40; /* Dark background for the navbar */
-}
+ 
+    box-shadow: 5px 5px 10px rgb(118, 27, 238);
+    background: #ffffff;
+     }
 
-.s1 {
-  margin-right: 10px;
-}
 
+
+
+
+     .navbars{
+      font-size: 37px;
+      font-weight: 800;
+      color: rgb(138 43 226) !important;
+      font-family: "Georgia", serif;
+     }
+    a{
+      text-decoration: none !important;
+    }
 .nav-link.y1 {
-  color: #fff;
+  color: #535353;
   margin-right: 10px;
   transition: color 0.3s;
+  font-size: 20px;
 }
 
 .nav-link.y1:hover {
-  color: #f8f9fa;
+  color: #8f0dd0;
 }
 
 .shopping {
@@ -76,30 +88,9 @@ nav .navbar-collapse.show li a.active  {
 .navbar-toggler {
   border: 0;
 }
-.navbar {
-  
-  box-shadow: 5px 5px 10px rgb(118, 27, 238);
-  background: #ffffff;
-   }
+
 
 /* Header.css */
-
-/* Change color of the navbar-toggler icon */
-.navbar-toggler.custom-toggler {
-  border-color: rgba(255, 255, 255, 0.5); /* Change the border color */
-}
-
-.navbar-toggler.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-  /* The above URL encodes a white SVG icon. Modify 'rgba(255, 255, 255, 0.5)' to change the color */
-}
-
-/* Change color of the toggler icon when hovered */
-.navbar-toggler.custom-toggler:hover .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-  /* Modify the color as needed */
-}
- */
 
 
 /* #navbar {
@@ -126,12 +117,7 @@ nav .navbar-collapse.show li a.active  {
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
 
-.navbar .navbar-brand {
-
-  font-size: 30px;
-  font-weight: 800;
-  color: rgb(138 43 226) !important;
-}
+ 
 
 #navbarSupportedContent a {
   color: #565656;
@@ -249,11 +235,13 @@ nav .navbar-collapse.show li a.active  {
   text-align: right;
 
 }
-
+.ms-auto {
+  margin-right: 35% !important;
+}
 .shopping img {
   
   height: 30px;
-  
+  margin-left: 42%;
 }
 
 .shopping span {
@@ -266,7 +254,7 @@ nav .navbar-collapse.show li a.active  {
   font-size: 17px;
   position: absolute;
   top: 4px;
-  left: 75%;
+  left: 45%;
   padding: 0px 9px;
 }
 
@@ -291,18 +279,20 @@ nav .navbar-collapse.show li a.active  {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(255, 255, 255);
-  font-size: 18px;
+  color: rgb(52, 50, 50);
+  font-size: 20px;
   position: absolute;
   top: -20px;
-  left: 146%;
+  left: 48%;
   padding: 3px 10px;
   text-decoration: none;
 }
-.s1{
-  height: 50px;
-  width: 50px;
- margin-right: 8px;
+.ss1{
+  height: 58px;
+  width: 58px;
+
+ 
+  
 }
 
 /* Home css */
