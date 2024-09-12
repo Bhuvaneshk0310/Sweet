@@ -7,6 +7,7 @@
         "price": 335,
         "b1":"https://t4.ftcdn.net/jpg/03/50/48/05/360_F_350480522_NKZXCipfYJXpyN2WqXpV5tc05wZEvl99.jpg",
         "originalPrice": 350.57
+        
        
     },
     {
@@ -72,7 +73,7 @@
         "price": 200,
         "originalPrice": 350.54,
         "b1":"https://freepngimg.com/convert-png/17331-sweets-free-download-png"
-    },
+            },
     {
         "id": 9,
         "image": "https://img.freepik.com/premium-photo/balushahi-badushah-mughlai-dish-is-traditional-indian-soft-flaky-dessert-sweet-food-also-popular-pakistan-bangladesh_466689-78.jpg",
@@ -85,7 +86,7 @@
     }
     ,
     {
-        "id": 10,
+        "id": 10,   
         "image": "https://www.godavarivantillu.com/cdn/shop/products/tapeswaram-madatha-kaja-272_1024x1024.jpg?v=1637866881",
         "title": "Madatha Kaja  (100g)",
         "background":"https://www.orderyourchoice.com/119536-large_default/madatha-kaja.jpg",

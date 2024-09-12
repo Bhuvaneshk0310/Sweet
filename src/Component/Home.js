@@ -20,7 +20,13 @@ const Home = () => {
 
        
       </section>
-      
+      <div>
+        <p className='e1'>
+          <h2>Special offers </h2>
+          list of sweets products
+          
+        </p>
+      </div>
       
         </div>
       
